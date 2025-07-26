@@ -6,7 +6,7 @@
 An integrated platform for Indian farmers to connect, learn, access expert advice, track mandi prices, explore climate-smart farming, and get real-time support.
 
 ---
-## ⚙️ Backend Architecture
+## ⚙️ Backend Architecture (projected)
 
 ### 🔹 Tech Stack
 
@@ -52,12 +52,3 @@ An integrated platform for Indian farmers to connect, learn, access expert advic
 * 📊 Crop Suitability → User's GPS + rainfall + historical yield match
 
 ---
-
-## 🔜 Next Actions
-
-1. Generate UI wireframes (mobile & web)
-2. Scaffold Go backend project structure
-3. Set up Python analytics service (REST API)
-4. Design DB schema (PostgreSQL)
-
-Let me know which you'd like to begin building first.
