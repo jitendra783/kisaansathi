@@ -1,0 +1,1001 @@
+State,District,Market,Commodity,Variety,Grade,Arrival_Date,Min_Price,Max_Price,Modal_Price,Commodity_Code
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,10/01/2014,1200,3552,3401,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,28/01/2014,3500,3500,3500,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,08/02/2014,2611,3750,2800,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,11/02/2014,3500,3757,3641,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,13/02/2014,3538,3740,3600,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,16/02/2014,3000,3676,3550,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,07/03/2014,3600,4041,3900,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,25/05/2014,3850,4350,4150,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Other,FAQ,17/06/2014,3500,3891,3850,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,08/03/2014,3600,4190,4050,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,23/04/2014,4000,4140,4050,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,25/04/2014,4307,4307,4307,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,03/05/2014,3850,4390,4180,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,06/05/2014,3600,4370,4200,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,09/05/2014,4070,4510,4300,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,21/05/2014,4001,4341,4105,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,21/06/2014,3500,3800,3750,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,24/06/2014,3000,3667,3550,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,24/07/2014,3470,3929,3750,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,25/07/2014,3500,3870,3700,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,05/08/2014,3700,3700,3700,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,20/08/2014,3400,3400,3400,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,29/10/2014,2600,2913,2850,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,01/11/2014,2750,3080,2840,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,13/11/2014,2800,3075,3050,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,14/11/2014,2800,3076,3050,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,15/11/2014,2800,3066,3050,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,04/12/2014,2900,3172,3100,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,10/12/2014,2000,3178,3051,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,17/12/2014,2900,3170,3150,13
+"Madhya Pradesh",Rajgarh,Sarangpur,Soyabean,Yellow,FAQ,24/12/2014,3000,3301,3200,13
+"Madhya Pradesh",Guna,Raghogarh,Soyabean,Yellow,FAQ,08/12/2014,2860,3286,3250,13
+"Madhya Pradesh",Guna,Raghogarh,Soyabean,Yellow,FAQ,11/12/2014,3200,3297,3260,13
+"Madhya Pradesh",Guna,Raghogarh,Soyabean,Yellow,FAQ,17/12/2014,3174,3174,3174,13
+"Madhya Pradesh",Guna,Raghogarh,Soyabean,Yellow,FAQ,18/12/2014,2995,3270,3200,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,08/01/2014,3116,3300,3250,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,13/10/2014,2581,2781,2762,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,16/10/2014,2401,2890,2726,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,17/10/2014,2250,2941,2800,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,18/10/2014,2375,2913,2775,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,28/10/2014,2750,3192,2861,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,31/10/2014,2956,3090,3025,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,03/11/2014,3000,3166,3090,13
+"Madhya Pradesh",Gwalior,Dabra,Soyabean,Yellow,FAQ,07/11/2014,3000,3135,3100,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,01/07/2014,3750,3750,3750,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,16/08/2014,2900,2900,2900,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,15/10/2014,2400,2455,2400,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,21/10/2014,2700,2700,2700,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,01/11/2014,2950,3050,3000,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,08/11/2014,2995,2995,2995,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,11/11/2014,2981,3001,2981,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,17/11/2014,2800,2800,2800,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,25/11/2014,3066,3066,3066,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Other,FAQ,04/12/2014,2900,2900,2900,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Soyabeen,FAQ,06/01/2014,3305,3305,3305,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Soyabeen,FAQ,10/01/2014,3205,3380,3205,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Soyabeen,FAQ,29/01/2014,3400,3420,3410,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Soyabeen,FAQ,31/01/2014,3000,3000,3000,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Yellow,FAQ,05/12/2014,2885,3085,2885,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Yellow,FAQ,08/12/2014,3040,3040,3040,13
+"Madhya Pradesh",Gwalior,Lashkar,Soyabean,Yellow,FAQ,26/12/2014,3000,3000,3000,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Other,FAQ,29/01/2014,2300,3720,3550,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,03/01/2014,2500,3910,3375,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,07/01/2014,2600,3969,3350,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,10/01/2014,2375,3600,3300,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,11/01/2014,2600,3640,3325,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,23/01/2014,3650,3690,3665,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,25/01/2014,3435,3631,3550,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,04/02/2014,2400,3799,3550,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,05/02/2014,2400,3775,3550,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,08/02/2014,2300,3780,3500,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,10/02/2014,2400,3800,3500,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,14/03/2014,3050,3970,3750,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,19/03/2014,3600,3970,3770,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,20/03/2014,3750,3980,3875,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,25/03/2014,3050,3950,3800,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,11/04/2014,3500,4110,4000,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,19/04/2014,3500,4160,3975,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,23/04/2014,3890,4107,4107,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,06/05/2014,4000,4516,4350,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,12/05/2014,4050,4463,4450,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,16/05/2014,2000,4300,4000,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,19/05/2014,3800,4350,4100,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,20/05/2014,3950,4236,4050,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,04/06/2014,1900,3895,3725,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,19/06/2014,3000,3781,3550,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,02/07/2014,3000,3925,3800,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,30/07/2014,3000,4015,3800,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,20/08/2014,2700,3620,3500,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,28/08/2014,2500,3530,3300,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,03/09/2014,2900,3371,3200,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,12/09/2014,2900,3363,3140,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,15/09/2014,3000,3380,3180,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,29/09/2014,2600,3116,3000,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,07/10/2014,2100,2920,2600,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,09/10/2014,2200,2940,2570,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,11/10/2014,2200,2853,2500,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,17/10/2014,2400,3000,2700,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,30/10/2014,2400,3171,2850,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,05/11/2014,2400,3100,2800,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,11/11/2014,2500,3048,2800,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,15/11/2014,2500,3180,2880,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,04/12/2014,2000,3136,3070,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,06/12/2014,2500,3175,3060,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,10/12/2014,2600,3184,3050,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,12/12/2014,2600,3164,3025,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,26/12/2014,2650,3224,3120,13
+"Madhya Pradesh",Harda,Harda,Soyabean,Yellow,FAQ,29/12/2014,2750,3338,3150,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,03/01/2014,2935,3810,3570,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,04/01/2014,2750,3750,3556,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,06/01/2014,3000,3650,3350,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,09/01/2014,2500,3528,3250,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,17/01/2014,2891,3700,3440,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,22/01/2014,3151,3681,3500,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,06/02/2014,2940,3851,3600,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,08/02/2014,2601,3800,3455,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,15/02/2014,2801,3745,3510,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,18/02/2014,2900,3771,3510,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,07/03/2014,3400,4051,3950,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,12/03/2014,3300,4002,3850,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,16/04/2014,3600,4240,4000,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,06/05/2014,3600,4641,4477,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,07/05/2014,3500,4617,4440,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,12/05/2014,3950,4611,4501,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,21/05/2014,3000,4450,4350,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,30/05/2014,3000,4290,4150,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,18/06/2014,3000,4000,3865,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,19/06/2014,3400,3901,3810,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Local,FAQ,20/06/2014,3500,3990,3750,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,31/07/2014,3200,3975,3825,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,01/08/2014,3526,3800,3770,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,02/08/2014,3530,3810,3750,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,08/08/2014,3600,3800,3750,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,21/08/2014,3000,3633,3550,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,09/09/2014,2702,3210,3170,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,15/09/2014,3150,3300,3275,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,30/09/2014,2300,3050,2950,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,10/10/2014,2500,2903,2825,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,17/10/2014,2100,2989,2771,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,27/10/2014,2200,2940,2780,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,30/10/2014,2600,3200,2980,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,31/10/2014,2700,3151,2950,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,14/11/2014,2800,3122,3060,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,15/11/2014,2800,3110,3025,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,19/11/2014,2850,3170,3050,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,20/11/2014,2900,3170,3040,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,25/11/2014,2900,3240,3165,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,29/11/2014,2900,3160,3010,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,05/12/2014,2900,3200,3050,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,06/12/2014,2900,3250,3150,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,20/12/2014,2830,3180,3125,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,23/12/2014,2950,3200,3125,13
+"Madhya Pradesh",Harda,Khirakiya,Soyabean,Yellow,FAQ,27/12/2014,3000,3380,3220,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,04/04/2014,3000,4101,3675,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,09/04/2014,3601,4200,3780,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,19/04/2014,2900,4140,3900,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,10/05/2014,3500,4531,4400,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,12/05/2014,3000,4521,4250,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,26/05/2014,3000,4100,3725,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,11/06/2014,2800,3750,3615,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,12/06/2014,2900,3800,3610,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,05/07/2014,2801,3880,3620,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,24/07/2014,4100,4100,4100,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,04/08/2014,3000,3834,3600,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,14/08/2014,3000,3717,3625,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,21/08/2014,2500,3590,3480,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,27/08/2014,2450,3547,3480,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,12/09/2014,2100,3325,3200,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,13/09/2014,2102,3339,3210,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,18/09/2014,2001,3410,3310,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,20/09/2014,1800,3201,3150,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,01/10/2014,2901,3170,3050,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,09/10/2014,2100,2973,2880,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,14/10/2014,2096,2900,2602,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,17/10/2014,1850,3020,2710,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,20/10/2014,1900,3010,2610,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,10/11/2014,1900,3140,2680,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,26/11/2014,2310,3240,2950,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,11/12/2014,1840,3240,2725,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,17/12/2014,2000,3090,2640,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,18/12/2014,1960,3141,2650,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,26/12/2014,2000,3371,2800,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Other,FAQ,29/12/2014,2106,3405,2800,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Yellow,FAQ,04/01/2014,1800,3800,3500,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Yellow,FAQ,10/02/2014,2030,3801,3550,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Yellow,FAQ,13/02/2014,2200,3800,3460,13
+"Madhya Pradesh",Harda,Timarni,Soyabean,Yellow,FAQ,17/02/2014,2000,3861,3475,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,01/01/2014,2600,3823,3500,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,02/01/2014,3200,3746,3361,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,16/01/2014,2300,3625,3391,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,24/01/2014,3750,3750,3750,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,27/01/2014,3501,3830,3699,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,06/03/2014,3400,4006,3771,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,11/03/2014,2600,4100,3760,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,20/03/2014,3091,4015,3890,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,25/04/2014,3700,4271,4161,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,30/04/2014,4050,4446,4380,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,10/05/2014,3200,4400,4001,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,13/05/2014,2568,4445,4251,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,21/05/2014,3900,4155,4075,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,26/05/2014,4001,4150,4100,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,27/05/2014,3300,4070,3950,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,07/06/2014,3200,3775,3401,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,09/06/2014,3500,4500,3751,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,10/06/2014,2500,3700,3600,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,12/06/2014,3350,3661,3500,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,14/06/2014,3500,3725,3650,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,23/06/2014,3256,3700,3600,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,05/07/2014,3000,3681,3480,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,07/07/2014,3101,3767,3650,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,05/08/2014,3000,3827,3775,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,21/08/2014,3000,3600,3527,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,28/08/2014,3175,3456,3342,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,29/08/2014,2951,3365,3330,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,05/09/2014,2801,3230,3181,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,08/09/2014,2900,3263,3211,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,13/09/2014,2850,3270,3100,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,18/09/2014,3050,3376,3261,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,19/09/2014,2700,3210,3150,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,22/09/2014,2440,3101,3026,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,30/09/2014,2675,3059,2981,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,01/10/2014,1899,3071,2850,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,10/10/2014,2200,2800,2625,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,14/10/2014,2181,2722,2502,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,17/10/2014,2400,3001,2750,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,20/10/2014,2569,2941,2721,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,27/10/2014,2511,3010,2676,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,28/10/2014,2411,3180,2951,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,15/11/2014,2620,3200,3100,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,17/11/2014,2600,3171,3031,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,18/11/2014,2500,3300,3070,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,28/11/2014,2660,3194,3140,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,12/12/2014,2700,3286,3070,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,13/12/2014,2440,3134,3068,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,29/12/2014,2800,3301,3215,13
+"Madhya Pradesh",Hoshangabad,Banapura,Soyabean,Yellow,FAQ,30/12/2014,2876,3340,3226,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Other,FAQ,16/04/2014,4000,4038,4000,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,30/06/2014,3500,3666,3500,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,09/07/2014,3445,3600,3570,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,11/07/2014,3616,3616,3616,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,27/10/2014,2701,2920,2920,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,07/11/2014,3141,3141,3141,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,12/11/2014,3115,3115,3115,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,02/12/2014,2501,2871,2871,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,12/12/2014,2902,2902,2902,13
+"Madhya Pradesh",Hoshangabad,Bankhedi,Soyabean,Yellow,FAQ,26/12/2014,2811,2811,2811,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,06/01/2014,3000,3739,3550,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,21/01/2014,2651,3750,3550,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,23/01/2014,3541,3791,3657,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,28/01/2014,2401,3801,3686,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,03/02/2014,2900,3875,3575,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,10/02/2014,3000,3823,3600,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,15/02/2014,2801,3855,3600,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,03/03/2014,3191,4138,3800,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,06/03/2014,3000,4031,3800,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,20/03/2014,3300,4196,3900,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,24/03/2014,3025,4104,3900,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,26/03/2014,3300,4094,3900,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,12/04/2014,3800,4272,4100,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,21/04/2014,3800,4365,4250,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,25/04/2014,3585,4500,4350,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,06/05/2014,3500,4639,4400,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,07/05/2014,3900,4626,4400,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,08/05/2014,4000,4626,4525,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,16/05/2014,3775,4335,4200,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,17/05/2014,3850,4450,4300,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,21/05/2014,3900,4479,4200,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,24/05/2014,3800,4500,4350,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,26/05/2014,3800,4399,4250,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,02/06/2014,3300,4276,4100,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,05/06/2014,2900,4040,3850,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,14/06/2014,3200,4053,3900,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,20/06/2014,3090,3975,3775,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,24/06/2014,3300,3894,3750,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,25/06/2014,3000,3901,3800,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,26/06/2014,3200,3880,3750,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,30/06/2014,3001,4175,3800,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,02/07/2014,3030,4080,3750,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,07/07/2014,2700,3951,2950,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,23/07/2014,2996,4100,3750,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,25/07/2014,3400,4096,3850,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,05/08/2014,2800,3945,3875,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,09/08/2014,3300,3851,3700,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,29/08/2014,3000,3642,3525,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,01/09/2014,3201,3566,3535,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,06/09/2014,2951,3276,3200,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,18/09/2014,2426,3425,3300,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,26/09/2014,2651,3150,3051,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,10/10/2014,2400,2911,2750,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,18/10/2014,2400,3150,2840,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,18/11/2014,2450,3248,3075,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,21/11/2014,2600,3240,3075,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,04/12/2014,2500,3223,3035,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,09/12/2014,2800,3274,3130,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,11/12/2014,2251,3240,2475,13
+"Madhya Pradesh",Hoshangabad,Itarsi,Soyabean,Yellow,FAQ,20/12/2014,2450,3200,3050,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,01/08/2014,3076,3880,3770,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,05/08/2014,2680,3830,3811,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,14/08/2014,3170,3870,3740,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,06/09/2014,3000,3362,3261,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,18/09/2014,2000,3470,3330,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,19/09/2014,2541,3431,3331,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,12/11/2014,2766,3176,3031,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,18/11/2014,2761,3150,3100,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,19/11/2014,2930,3140,3050,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,20/11/2014,2901,3131,3076,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,26/11/2014,2700,3262,3190,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,04/12/2014,2991,3142,3050,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,10/12/2014,2610,3252,3171,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,17/12/2014,2825,3125,3060,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,19/12/2014,2980,3130,3070,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Other,FAQ,27/12/2014,3050,3300,3150,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Yellow,FAQ,04/01/2014,2500,3930,3550,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Yellow,FAQ,21/01/2014,2800,3735,3350,13
+"Madhya Pradesh",Hoshangabad,Pipariya,Soyabean,Yellow,FAQ,05/02/2014,2952,3960,3550,13
+"Madhya Pradesh",Sagar,Deori,Soyabean,Other,FAQ,13/10/2014,2800,3100,2950,13
+"Madhya Pradesh",Sagar,Deori,Soyabean,Other,FAQ,07/11/2014,2600,2850,2700,13
+"Madhya Pradesh",Sagar,Deori,Soyabean,Other,FAQ,05/12/2014,2800,3100,2900,13
+"Madhya Pradesh",Sagar,Deori,Soyabean,Other,FAQ,09/12/2014,2700,3200,2850,13
+"Madhya Pradesh",Sagar,Deori,Soyabean,Yellow,FAQ,12/08/2014,3400,3900,3600,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Other,FAQ,05/11/2014,2501,3503,3100,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,03/01/2014,3001,3009,3005,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,13/01/2014,2700,2700,2700,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,04/02/2014,3184,3184,3184,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,11/03/2014,3428,3428,3428,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,26/03/2014,4000,4100,4050,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,08/07/2014,3200,3200,3200,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,13/09/2014,3000,3000,3000,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,10/10/2014,2600,3115,2762,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,27/10/2014,2300,3231,2765,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,30/10/2014,2551,3301,2926,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,01/11/2014,2500,3200,2850,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,10/11/2014,2401,3460,3300,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,14/11/2014,2500,3441,3200,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,21/11/2014,2201,3350,3200,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,26/11/2014,2246,3317,3200,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,06/12/2014,2000,3341,3000,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,08/12/2014,2945,3317,3200,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,13/12/2014,2506,3225,3100,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,15/12/2014,2490,3250,3100,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,16/12/2014,2656,3206,3106,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,17/12/2014,2826,3211,3000,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,27/12/2014,2950,3254,3154,13
+"Madhya Pradesh",Sagar,Garhakota,Soyabean,Yellow,FAQ,29/12/2014,2951,3259,3200,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,27/09/2014,2700,3040,2900,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,29/09/2014,2670,3000,2860,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,14/10/2014,2565,2750,2670,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,29/10/2014,2680,3218,2745,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,01/11/2014,2650,3000,2800,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,05/11/2014,2560,3145,3000,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,11/11/2014,2450,3185,2800,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,24/11/2014,2560,3185,3000,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,25/11/2014,2700,3385,3000,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,01/12/2014,2600,3280,3000,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,09/12/2014,2600,3285,2990,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,10/12/2014,2600,3200,2900,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,16/12/2014,2700,3246,3050,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,23/12/2014,2800,3130,2900,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Other,FAQ,27/12/2014,2600,3300,3140,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,06/01/2014,2200,3625,3146,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,07/01/2014,2570,3492,3193,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,18/01/2014,2301,3501,3178,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,03/02/2014,2380,3555,3258,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,04/02/2014,2920,3530,3247,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,09/04/2014,3405,3841,3550,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,19/04/2014,3360,3850,3605,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,25/04/2014,3815,4065,3920,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,06/05/2014,3180,3490,3335,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,23/05/2014,3781,3845,3813,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,07/06/2014,3050,3630,3383,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,21/06/2014,2650,3496,3316,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,04/07/2014,2200,3666,2700,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,13/08/2014,3300,3400,3350,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,19/08/2014,3012,3410,3230,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,12/09/2014,2580,3000,2820,13
+"Madhya Pradesh",Sagar,Khurai,Soyabean,Yellow,FAQ,17/09/2014,3000,3285,3255,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,27/10/2014,2450,2950,2600,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,05/11/2014,2900,3300,3100,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,19/11/2014,2550,3150,2850,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,20/11/2014,2600,3180,2890,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,24/11/2014,2600,3250,2925,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,03/12/2014,2600,3100,2850,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,06/12/2014,2700,3155,2925,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,10/12/2014,2500,3000,2750,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,11/12/2014,2800,3200,3000,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,15/12/2014,2675,3175,2925,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,20/12/2014,2600,3100,2850,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,26/12/2014,3000,3050,3025,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Other,FAQ,27/12/2014,3050,3200,3125,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Yellow,FAQ,22/09/2014,2650,2900,2700,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Yellow,FAQ,27/09/2014,2800,3000,2900,13
+"Madhya Pradesh",Sagar,Rahatgarh,Soyabean,Yellow,FAQ,13/12/2014,2650,3125,2875,13
+"Madhya Pradesh",Sagar,Rehli,Soyabean,Yellow,FAQ,21/12/2014,2950,3100,3000,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,12/01/2014,2451,3950,3675,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,19/01/2014,2561,3700,3675,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,01/02/2014,2650,3900,3700,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,02/02/2014,2050,3900,3700,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,04/02/2014,2550,3950,3680,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,08/02/2014,2400,3970,3600,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,09/02/2014,2000,3900,3700,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,12/02/2014,2700,2700,2700,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,19/02/2014,2450,3950,3775,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,02/03/2014,3000,4199,3780,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,12/03/2014,3060,4156,3700,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,14/03/2014,2101,4150,3775,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,15/03/2014,2800,4210,3680,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,23/03/2014,3200,4250,3700,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,04/04/2014,3500,4350,3700,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,26/04/2014,3800,4250,4050,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,07/05/2014,4000,4350,4200,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,17/05/2014,3300,4510,4200,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,09/06/2014,3000,4425,4100,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,10/06/2014,3000,4210,3875,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,14/06/2014,2000,4225,3780,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,15/06/2014,2400,4255,3900,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,17/06/2014,3000,4210,4000,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,18/06/2014,3000,4150,3900,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,28/06/2014,2000,4701,3850,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,06/07/2014,2500,4110,3875,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,08/07/2014,2500,4200,3780,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,11/07/2014,2500,4200,3850,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,12/07/2014,2500,3960,3775,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,08/08/2014,2500,3725,3578,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,20/08/2014,2375,3715,3650,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,22/08/2014,2600,3680,3600,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,27/08/2014,2400,3650,3600,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,01/09/2014,2250,3590,3400,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,02/09/2014,2400,3520,3400,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,12/09/2014,2475,3345,3180,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,23/09/2014,2600,3050,2800,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,26/09/2014,2400,3150,2950,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,28/09/2014,2500,3150,2950,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,08/10/2014,2400,3075,2850,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,10/10/2014,2600,3100,2875,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,31/10/2014,2500,3305,3075,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,13/11/2014,2400,3321,3150,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,21/11/2014,2300,3400,3190,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,28/11/2014,2875,3455,3200,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,30/11/2014,2600,3401,3280,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,02/12/2014,2700,3340,3075,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,05/12/2014,2500,3250,3150,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Other,FAQ,23/12/2014,2400,3250,3075,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Yellow,FAQ,18/07/2014,2500,4250,3775,13
+"Madhya Pradesh",Sagar,Sagar,Soyabean,Yellow,FAQ,20/07/2014,2400,4035,3675,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,13/09/2014,2750,3000,2850,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,28/09/2014,2600,2800,2700,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,25/10/2014,2700,2850,2800,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,27/10/2014,2700,2850,2800,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,30/10/2014,2800,3050,2900,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,31/10/2014,2900,3025,3000,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,14/11/2014,3000,3050,3025,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,28/11/2014,2900,3050,3000,13
+"Madhya Pradesh",Sagar,Shahagarh,Soyabean,Other,FAQ,05/12/2014,2900,3000,2950,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,05/01/2014,2850,3700,3450,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,08/01/2014,2200,3500,2900,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,05/02/2014,3300,3600,3400,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,09/02/2014,2850,3400,3100,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,10/02/2014,3300,3300,3300,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,19/03/2014,3600,3711,3650,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,30/03/2014,3350,3904,3400,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,06/04/2014,3875,3875,3875,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,19/04/2014,3600,3800,3700,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,20/04/2014,3700,3700,3700,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,30/04/2014,3600,3750,3700,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,05/05/2014,3750,3800,3750,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,02/08/2014,3100,3250,3200,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,03/08/2014,3300,3500,3400,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,13/08/2014,3100,3200,3150,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,20/08/2014,3100,3300,3100,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,31/08/2014,3300,3300,3300,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,12/11/2014,2700,3000,2800,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,13/11/2014,2900,2950,2900,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,14/11/2014,3000,3100,3000,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,04/12/2014,3000,3000,3000,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,07/12/2014,2500,3100,2900,13
+"Madhya Pradesh",Satna,Nagod,Soyabean,Other,FAQ,08/12/2014,2875,3011,2976,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,09/01/2014,2301,3650,3000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,10/01/2014,2380,3641,3000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,23/01/2014,2350,3651,3000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,25/01/2014,2410,3675,3000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,29/01/2014,2500,3680,3000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,15/02/2014,2431,3835,3100,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,20/02/2014,2601,3875,3100,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,08/03/2014,2650,4130,3300,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,19/03/2014,3000,4311,3500,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,20/03/2014,2850,4310,3500,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,25/03/2014,2810,4255,3500,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,03/04/2014,2901,4265,3500,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,20/05/2014,3800,4250,4000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,26/05/2014,3850,4201,4000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,30/05/2014,3850,4360,4000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,07/06/2014,3501,4150,3900,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,25/06/2014,3400,4000,3700,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,30/06/2014,3250,4150,4000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,03/07/2014,3401,4250,3900,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,02/08/2014,3350,3810,3700,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,05/08/2014,3050,3501,3300,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,06/08/2014,3050,3540,3300,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,12/08/2014,2800,3300,3100,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,19/08/2014,3300,4210,3900,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,21/08/2014,2801,3450,3200,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,26/08/2014,2800,3551,3350,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,04/09/2014,2850,3500,3300,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,10/09/2014,2800,3249,3100,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,16/10/2014,2300,2640,2500,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,08/11/2014,2750,3201,3000,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,20/12/2014,2700,3125,2900,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,23/12/2014,2850,3225,3050,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,26/12/2014,2901,3340,3150,13
+"Madhya Pradesh",Satna,Satna,Soyabean,Other,FAQ,30/12/2014,2850,3455,3100,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,09/01/2014,1700,4248,3660,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,15/01/2014,2030,4171,3700,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,16/01/2014,1500,4465,3761,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,31/01/2014,1500,4440,3750,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,04/02/2014,1700,4390,3750,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,12/02/2014,1500,4241,3735,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,15/02/2014,2055,4810,3024,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,17/02/2014,2210,4291,3730,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,11/03/2014,2200,4438,4051,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,14/03/2014,1500,4501,4052,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,25/03/2014,2321,4381,4002,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,07/04/2014,3162,4405,4151,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,11/04/2014,2590,4596,4201,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,22/04/2014,2400,4886,4200,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,10/05/2014,3211,5626,4550,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,26/05/2014,2350,5825,4400,13
+"Madhya Pradesh",Sehore,Ashta,Soyabean,Other,FAQ,09/06/2014,2200,6050,4000,13
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,30/04/2014,9000,19150,16500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,15/05/2014,9000,19950,16650,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,20/05/2014,9000,19900,16700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,22/05/2014,9000,19950,16750,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,23/05/2014,9000,19950,16750,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,24/05/2014,9000,19950,16750,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,03/06/2014,9000,21200,16650,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,09/06/2014,8950,20050,16550,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,13/06/2014,8950,20050,16500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,17/06/2014,8950,20250,16800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,19/06/2014,8950,20300,16800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,24/06/2014,9100,21100,17100,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,26/06/2014,9100,21750,17300,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,27/06/2014,9100,21800,17300,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,01/07/2014,10000,22200,17550,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,02/07/2014,10000,22250,17550,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,03/07/2014,10000,22250,17550,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,04/07/2014,10000,22250,17550,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,09/07/2014,9500,25000,18500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,10/07/2014,9500,25050,18500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,14/07/2014,11000,31500,18000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,18/07/2014,14500,29500,21500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,24/07/2014,15000,30000,24000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,02/08/2014,15000,30000,24500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,05/08/2014,14500,28000,24000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,26/08/2014,15100,27500,23900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,30/08/2014,15200,27500,23850,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,17/09/2014,15000,23500,20500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,20/09/2014,15000,23500,20500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Mangalore,Arecanut(Betelnut/Supari),"New Variety",Medium,29/09/2014,15000,23500,20500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,22/01/2014,8100,10200,9500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,05/02/2014,8000,10100,9700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,21/02/2014,8000,10100,9750,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,24/02/2014,8000,10100,9750,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,26/02/2014,8000,10100,9800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,06/03/2014,8000,10100,9900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,13/03/2014,8000,10100,9800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,14/03/2014,8000,10100,9800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,17/03/2014,8000,10100,9800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,30/03/2014,8000,10200,9950,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,15/04/2014,8000,10700,9980,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,24/04/2014,8000,10700,9950,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,09/05/2014,8000,10800,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,16/05/2014,8000,10800,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,22/05/2014,8000,10800,10050,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,23/05/2014,8000,10800,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,30/05/2014,8000,10800,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,31/05/2014,8000,10800,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,03/06/2014,8000,10800,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,30/06/2014,8000,11200,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,30/07/2014,8300,13500,11500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,05/08/2014,8400,13500,11500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,06/08/2014,8400,13500,11500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,27/08/2014,8500,15000,12500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,30/08/2014,8500,15000,12500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),Cqca,Medium,20/09/2014,8600,10000,9200,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,07/01/2014,9500,15000,12700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,09/01/2014,9500,15000,12700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,10/01/2014,9800,15500,12730,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,22/01/2014,9800,15500,12700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,25/01/2014,9800,15500,12700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,31/01/2014,9800,15700,12750,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,04/02/2014,9800,15700,12750,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,21/02/2014,10000,16200,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,24/02/2014,10000,16500,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,01/03/2014,9900,17000,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,07/03/2014,9900,17200,12850,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,13/03/2014,9900,17000,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,17/03/2014,9900,17000,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,20/03/2014,9900,17200,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,25/03/2014,9900,17700,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,29/03/2014,9950,18000,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,02/04/2014,9500,18400,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,03/04/2014,9500,18800,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,05/04/2014,9500,19200,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,22/04/2014,9500,19300,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,24/04/2014,9500,19100,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,26/04/2014,9500,19200,12800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,06/05/2014,9500,20000,12950,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,08/05/2014,9500,20000,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,12/05/2014,9500,20000,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,17/05/2014,9500,20000,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,22/05/2014,9500,20200,12950,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,23/05/2014,9500,20200,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,31/05/2014,9500,20200,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,11/06/2014,9500,20200,12950,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,12/06/2014,9500,20200,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,13/06/2014,9500,20200,12950,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,20/06/2014,9500,20500,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,26/06/2014,9500,25000,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,28/06/2014,9500,27000,12900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,15/07/2014,9600,31000,14000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,19/07/2014,9600,29500,14000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,21/07/2014,9600,30000,15500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,23/07/2014,10300,30000,16000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,26/07/2014,10300,30000,16200,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,30/07/2014,10300,30000,17000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,07/08/2014,10500,27500,18500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,14/08/2014,10600,27500,19000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,16/08/2014,11000,27500,19500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,27/08/2014,11000,27500,19500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Puttur,Arecanut(Betelnut/Supari),"New Variety",Medium,19/09/2014,12500,24000,19500,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,17/01/2014,7600,10100,9800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,18/01/2014,7200,10000,9000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,22/01/2014,7000,10000,9000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,23/01/2014,7500,10000,9200,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,12/03/2014,7100,10500,9000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,13/03/2014,6000,11000,9900,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,26/03/2014,6000,10000,9000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,27/03/2014,6000,10500,9700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,23/04/2014,7000,10000,9000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,03/05/2014,4800,10500,9700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,21/05/2014,8800,10500,10000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,05/06/2014,7500,12100,9800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,13/06/2014,9000,12000,11700,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,17/06/2014,7000,10000,9000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,25/06/2014,8000,12000,10800,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,09/07/2014,10000,20000,14000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,30/07/2014,11900,25000,20000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),Cqca,Medium,19/08/2014,6000,18000,14000,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),"New Variety",Medium,29/04/2014,18000,19400,19300,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),"New Variety",Medium,01/07/2014,18700,22600,21400,140
+Karnataka,"Mangalore(Dakshin Kannad)",Sulya,Arecanut(Betelnut/Supari),"New Variety",Medium,07/07/2014,20000,28000,22900,140
+Karnataka,Mysore,K.R.Nagar,Arecanut(Betelnut/Supari),Red,Medium,03/03/2014,11250,11250,11250,140
+Karnataka,Mysore,K.R.Nagar,Arecanut(Betelnut/Supari),Red,Medium,03/04/2014,15037,15037,15037,140
+Karnataka,Mysore,K.R.Nagar,Arecanut(Betelnut/Supari),Red,Medium,02/12/2014,2625,2625,2625,140
+Karnataka,Mysore,"Piriya Pattana",Arecanut(Betelnut/Supari),Other,Small,24/01/2014,1500,1500,1500,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Bette,Medium,15/04/2014,28319,28319,28319,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Chali,Medium,24/01/2014,10699,12099,11912,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Chali,Medium,21/03/2014,12599,14039,13216,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Chali,Medium,25/03/2014,14099,14099,14099,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Chali,Medium,15/04/2014,15609,16819,16214,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Chali,Medium,13/05/2014,15509,15599,15574,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,04/02/2014,10639,11859,11338,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,25/02/2014,10699,12009,11433,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,11/03/2014,9999,9999,9999,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,11/04/2014,11099,15099,14269,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,15/04/2014,11009,15199,13979,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,22/04/2014,14099,14099,14099,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,06/05/2014,14099,14099,14099,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,01/07/2014,18001,23561,21276,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,04/07/2014,25099,25099,25099,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,15/07/2014,10251,16531,14138,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,08/08/2014,10269,16069,15822,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Gorabalu,Medium,05/09/2014,13000,22210,17873,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,17/01/2014,13099,20239,19521,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,FAQ,23/01/2014,30009,35399,32209,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,06/05/2014,30000,32809,31808,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,09/05/2014,30000,33699,31968,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,13/05/2014,32882,35919,34663,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,06/06/2014,40144,42119,40734,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,17/06/2014,40000,45569,43968,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,08/07/2014,64925,79019,70979,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,15/07/2014,55877,76139,61872,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,22/07/2014,52599,70000,64566,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,05/08/2014,41269,62689,53158,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,26/08/2014,26110,45019,33060,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,23/09/2014,26210,41009,37129,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,28/10/2014,21619,33509,31786,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,31/10/2014,25110,33009,29518,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Rashi,Medium,26/12/2014,20069,29119,27048,140
+Karnataka,Shimoga,Bhadravathi,Arecanut(Betelnut/Supari),Sippegotu,Medium,04/12/2014,5000,5000,5000,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),api,Medium,01/03/2014,22099,22519,22509,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),api,Medium,16/04/2014,28919,29619,29009,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,15/03/2014,7411,7411,7411,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,24/05/2014,11269,13869,12569,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,09/08/2014,8699,12169,12069,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Chali,Medium,21/06/2014,20009,22829,22769,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,28/06/2014,23919,29399,27509,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Rashi,Medium,20/09/2014,30199,38199,36099,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Rashi,Medium,20/12/2014,26899,28819,27529,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Red,Medium,01/03/2014,20009,20959,20689,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Red,Medium,15/03/2014,20289,21899,21599,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,26/04/2014,8889,9199,8889,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,28/06/2014,12589,13009,12589,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,19/07/2014,11099,11099,11099,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,26/07/2014,8279,8919,8279,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,25/08/2014,4099,4099,4099,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,20/09/2014,6099,6099,6099,140
+Karnataka,Shimoga,Hosanagar,Arecanut(Betelnut/Supari),White,Medium,05/04/2014,14279,17899,17109,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),api,Medium,06/02/2014,21410,25270,23670,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),api,Medium,21/04/2014,28150,28150,28150,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,08/01/2014,12239,12239,12239,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,30/01/2014,8069,12469,10899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,05/02/2014,8699,8699,8699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,06/02/2014,7776,11899,11509,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,20/02/2014,8369,11069,9149,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,24/02/2014,8299,10635,9869,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,28/02/2014,9599,10789,9725,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,07/03/2014,10469,10599,10469,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,10/03/2014,7786,12129,11989,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,11/03/2014,10480,11929,11719,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,14/03/2014,11209,12189,11909,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,11/04/2014,14409,15069,14809,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,21/04/2014,7786,14482,13899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,25/04/2014,14061,14999,14699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,28/04/2014,13599,15805,15539,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,06/05/2014,15099,16339,16209,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,07/05/2014,14619,16299,15889,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,14/05/2014,14399,17599,15909,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,26/05/2014,12889,16399,15899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,28/05/2014,13000,13786,13000,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,09/06/2014,9599,15899,15699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,16/06/2014,14299,20499,16299,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,17/06/2014,16152,16489,16152,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,18/06/2014,14499,16129,15399,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,01/07/2014,23004,23004,23004,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,09/07/2014,22919,25889,22919,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,15/07/2014,15809,20269,18889,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,21/07/2014,10069,23555,22789,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,22/07/2014,9069,22229,18609,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,20/08/2014,13381,16269,13381,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,08/09/2014,8100,16069,15699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,16/09/2014,12100,12509,12300,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Bilegotu,Medium,18/09/2014,8786,15809,14809,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,28/01/2014,15489,15489,15489,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,13/02/2014,12456,15709,15489,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,17/02/2014,12509,15309,14939,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,05/03/2014,14599,14649,14599,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,10/03/2014,11209,15809,15029,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,24/03/2014,13699,16259,15909,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,07/04/2014,14609,19000,18550,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,24/04/2014,16299,18369,18019,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,30/04/2014,18000,19099,18969,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,06/05/2014,19469,19899,19469,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,09/05/2014,19939,19989,19939,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,22/05/2014,19669,20369,20069,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,23/05/2014,19299,19609,19479,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,28/05/2014,18256,19270,19159,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,29/05/2014,18569,19989,19569,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,30/05/2014,19209,19369,19209,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,03/06/2014,19419,19909,19889,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,25/06/2014,24629,25079,24629,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,03/07/2014,26019,33299,32519,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,18/07/2014,30209,30209,30209,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,24/07/2014,22381,32239,30909,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,25/07/2014,29909,32009,31299,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,28/07/2014,22909,33369,31289,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,31/07/2014,21099,29509,26009,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,13/08/2014,21009,26099,24669,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,08/09/2014,21029,25309,24800,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Chali,Medium,10/09/2014,21069,22909,22509,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,13/01/2014,11599,11599,11599,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,20/01/2014,10129,11726,10129,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,27/01/2014,11069,11069,11069,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,10/03/2014,7786,12429,12200,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,13/03/2014,9485,12570,12109,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,24/03/2014,10500,13699,13099,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,15/04/2014,14899,15239,14899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,22/04/2014,15099,15099,15099,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,24/04/2014,11786,16689,15555,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,06/05/2014,17319,17319,17319,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,08/05/2014,9205,18564,18099,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,14/05/2014,10099,19189,18399,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,02/06/2014,9699,19109,18799,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,06/06/2014,15639,20104,19904,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,20/06/2014,13129,21909,20989,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,24/06/2014,18119,20899,18119,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,26/06/2014,14069,21929,21019,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,09/07/2014,27099,27099,27099,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,28/07/2014,8099,22399,21329,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,30/07/2014,12629,21099,12629,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,04/08/2014,4000,20119,19099,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,12/08/2014,18699,18699,18699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Cqca,Medium,13/08/2014,10099,10099,10099,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,07/01/2014,13899,14499,14199,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,08/01/2014,14410,14410,14410,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,09/01/2014,8889,14670,13319,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,10/01/2014,14399,14819,14399,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,23/01/2014,13209,15110,14699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,27/01/2014,11099,15110,14570,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,03/02/2014,6099,15199,14510,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,04/03/2014,7699,14310,13689,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,11/03/2014,13570,15169,14889,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,17/03/2014,7589,15770,14979,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,18/03/2014,9059,15670,15270,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,09/04/2014,15479,17799,15479,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,11/04/2014,15569,17499,16899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,22/04/2014,14419,16889,16689,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,29/04/2014,16589,18899,16589,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,30/04/2014,16399,18799,17669,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,15/05/2014,18839,24079,21789,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,19/05/2014,15699,24170,21699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,20/05/2014,15859,21599,21229,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,21/05/2014,20771,20999,20771,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,12/06/2014,20919,28989,23899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,16/06/2014,18001,27499,27099,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,08/07/2014,43399,43399,43399,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,24/07/2014,21199,32099,27329,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,07/08/2014,15399,26001,22169,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,18/08/2014,18889,19029,18889,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Kempugotu,Medium,26/08/2014,16019,16019,16019,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,FAQ,06/01/2014,19669,23850,20419,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,07/01/2014,19009,21550,20119,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,17/01/2014,19189,20119,19899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,21/01/2014,19859,24150,20259,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,11/02/2014,19899,20489,20289,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,05/03/2014,18109,25000,21229,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,24/03/2014,20199,25199,23029,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,15/04/2014,20699,27609,27329,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,21/04/2014,20009,27819,27599,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,22/04/2014,25069,27819,27469,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,25/04/2014,27009,28549,27009,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,28/04/2014,18009,30719,29919,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,29/04/2014,30259,30759,30549,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,05/05/2014,23009,32309,31699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,06/05/2014,21509,31869,31699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,13/05/2014,30570,35729,35249,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,15/05/2014,25609,37009,36829,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,21/05/2014,29809,38150,36509,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,27/05/2014,32069,35569,35399,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,13/06/2014,42509,43929,43699,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,18/06/2014,35570,44199,43899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,23/06/2014,25000,46060,45019,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,24/06/2014,44009,45309,45269,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,01/07/2014,50199,51499,50199,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,03/07/2014,32199,59200,57009,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,07/07/2014,44199,80889,80389,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,13/08/2014,28899,52000,49000,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,14/08/2014,25110,50009,48509,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,20/08/2014,42509,43499,43269,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,25/08/2014,20899,43699,40899,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,04/09/2014,34199,48099,46110,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,10/09/2014,36009,43169,36009,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,16/09/2014,27089,27089,27089,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,18/09/2014,24079,33019,30509,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Rashi,Medium,04/12/2014,25169,32950,28310,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,07/02/2014,6739,6739,6739,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,03/03/2014,2400,7444,7011,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,05/05/2014,3899,10559,10100,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,17/06/2014,11981,11981,11981,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,26/06/2014,12281,13509,12919,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,03/07/2014,9489,18099,15881,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,16/07/2014,6689,15329,14519,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,04/08/2014,9099,15289,12601,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,06/08/2014,12205,12495,12205,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,01/09/2014,6789,11289,9829,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,04/09/2014,2222,11600,2222,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,15/09/2014,4167,8549,8127,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,17/09/2014,8844,8844,8844,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,14/10/2014,10692,10799,10692,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,16/10/2014,8669,10289,10069,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,31/10/2014,5150,6006,5150,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,18/12/2014,7607,10205,10105,140
+Karnataka,Shimoga,Sagar,Arecanut(Betelnut/Supari),Sippegotu,Medium,22/12/2014,6000,10464,9575,140
+Karnataka,Shimoga,Shikaripura,Arecanut(Betelnut/Supari),Rashi,Medium,14/02/2014,19500,19800,19600,140
+Karnataka,Shimoga,Shikaripura,Arecanut(Betelnut/Supari),Rashi,Medium,19/03/2014,18800,19984,19500,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,FAQ,06/01/2014,20039,24298,23849,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,29/01/2014,20099,23689,22869,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,31/01/2014,20009,23278,22829,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,11/02/2014,20009,23139,22869,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,20/02/2014,20009,23069,22829,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,25/03/2014,22500,24659,24382,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,04/04/2014,23269,26059,25389,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,09/04/2014,24069,28629,28309,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,11/04/2014,24569,29669,28659,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,25/04/2014,25009,29370,29189,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,30/04/2014,27099,31788,30989,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,19/05/2014,35099,37669,36876,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,22/05/2014,31099,36619,36439,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,26/05/2014,33009,36369,36129,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,29/05/2014,34069,37270,37159,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,03/06/2014,36599,39969,39899,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,04/06/2014,39390,40399,40129,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,13/06/2014,43669,45369,44769,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,16/06/2014,40109,45489,45109,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,19/06/2014,42010,45500,45209,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,25/06/2014,43059,46669,46589,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,04/07/2014,61569,65233,65069,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,15/07/2014,53000,67000,62519,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,16/07/2014,60109,70200,68369,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,21/07/2014,60069,72272,71129,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,22/07/2014,55029,70200,68069,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,25/07/2014,52099,67126,64842,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,04/08/2014,52290,63569,62512,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,18/08/2014,35009,52009,46490,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,28/08/2014,38090,51500,44009,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,09/09/2014,41400,55539,50069,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,10/09/2014,37119,52555,49289,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Bette,Medium,23/09/2014,34509,42500,38972,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,FAQ,03/01/2014,9009,14229,13699,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,06/01/2014,9009,14100,13909,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,FAQ,06/01/2014,9009,14100,13909,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,16/01/2014,9002,14179,13905,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,17/01/2014,9009,13999,13879,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,20/01/2014,8869,13999,13689,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,24/01/2014,9019,14099,13869,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,12/02/2014,9910,14289,13899,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,17/02/2014,10009,14299,13980,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,06/03/2014,11000,14599,14390,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,10/03/2014,10100,14839,14479,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,13/03/2014,10009,14989,14700,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,24/04/2014,12000,19059,18770,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,25/04/2014,10300,19110,18869,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,30/04/2014,10200,20479,19899,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,08/05/2014,15009,21331,20909,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,13/05/2014,15000,23490,22159,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,23/05/2014,14015,22199,21789,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,04/06/2014,17011,24399,23589,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,05/06/2014,19409,25199,24199,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,06/06/2014,18009,25660,24782,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,11/06/2014,16189,28589,27099,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,20/06/2014,16009,28129,26869,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,26/06/2014,15099,29699,28269,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,01/07/2014,20169,36169,33369,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,09/07/2014,40000,51609,40669,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,10/07/2014,24150,51299,42590,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,16/07/2014,24000,40009,33090,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,18/07/2014,18009,41099,33500,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,21/07/2014,20000,38569,33462,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,23/07/2014,18099,33339,31099,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,24/07/2014,17800,32342,30422,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,28/07/2014,15735,27220,15735,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,13/08/2014,12519,31699,23242,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,26/08/2014,10069,21642,20479,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,02/09/2014,10009,24069,20229,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,11/09/2014,9099,24509,21542,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,15/09/2014,10019,23432,16619,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Gorabalu,Medium,19/09/2014,10009,25300,16099,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),"New Variety",Medium,11/09/2014,24119,31069,30569,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),"New Variety",Medium,16/09/2014,22119,42229,31699,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),"New Variety",Medium,18/09/2014,25009,41300,32099,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),"New Variety",Medium,29/09/2014,32009,38569,37159,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,07/01/2014,18569,20389,20169,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,09/01/2014,18609,20311,19769,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,21/01/2014,18690,20429,20129,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,30/01/2014,19500,20489,20289,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,03/02/2014,18669,20509,20069,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,18/02/2014,19269,20639,20379,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,21/02/2014,19200,20599,20389,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,25/02/2014,19690,20729,20579,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,17/03/2014,20209,22109,21889,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,19/03/2014,20686,22609,22259,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,03/04/2014,22789,25600,24700,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,04/04/2014,20539,26059,25269,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,23/04/2014,25009,28799,28559,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,29/04/2014,28869,31319,30989,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,05/05/2014,29000,32389,32110,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,15/05/2014,34099,37029,36719,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,20/05/2014,35010,37389,37169,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,26/05/2014,32069,36389,36089,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,27/05/2014,33200,36699,36469,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,28/05/2014,34509,36759,36499,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,11/06/2014,41519,45689,44989,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,13/06/2014,43009,45366,44869,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,17/06/2014,40120,45240,44820,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,27/06/2014,43509,48409,47689,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,30/06/2014,50089,51899,51489,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,04/07/2014,58089,65129,65089,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,07/07/2014,73869,81859,81089,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,22/07/2014,50066,70209,68089,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,06/08/2014,50099,62899,60590,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,14/08/2014,30010,64669,50619,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,18/08/2014,35000,50129,46000,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,20/08/2014,31116,61109,42569,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,28/08/2014,36099,51529,45300,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,01/09/2014,38069,49009,47569,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,17/09/2014,25019,43000,33589,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,23/09/2014,30032,42000,38872,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,25/09/2014,28169,42722,39690,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,30/09/2014,24109,40009,36629,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,10/10/2014,32010,37269,36029,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,29/10/2014,30421,35119,33309,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,03/12/2014,21166,30000,28619,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,15/12/2014,25065,30966,28269,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Rashi,Medium,24/12/2014,20518,29189,27619,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Saraku,Medium,06/01/2014,25009,32896,30869,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Saraku,Medium,08/01/2014,24609,33596,30890,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Saraku,Medium,10/01/2014,25069,32640,30669,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Saraku,Medium,13/01/2014,24160,32896,30689,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Saraku,Medium,17/01/2014,24160,32511,30689,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Saraku,Medium,11/02/2014,25109,32669,30689,140
+Karnataka,Shimoga,Shimoga,Arecanut(Betelnut/Supari),Saraku,Medium,13/02/2014,25310,32889,30700,140
