@@ -1,2 +1,16 @@
 *.yaml
 *.sh
+*.json
+*.log
+*.txt
+*.md
+*.csv
+*.xml
+*.html
+*.yml
+*.toml
+*.env
+*.conf
+*.ini
+*.lock
+*.db
