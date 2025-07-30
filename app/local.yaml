@@ -3,10 +3,16 @@ version: 1.0
 server:
   host: 0.0.0.0
   port: 8080
-repo:  
+database:
+  host: ep-broad-tooth-a1d6vqge-pooler.ap-southeast-1.aws.neon.tech
+  database: kisandb
+  user: neondb_owner
+  port: 5432
+  password: npg_gptRYzLIe72r
+repo:
   redis:
-    host : 127.0.0.1
+    host: 127.0.0.1
     port: 6379
 log:
-  path: "app.log" 
+  path: "app.log"
   level: -1

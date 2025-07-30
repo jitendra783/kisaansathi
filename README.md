@@ -50,5 +50,3 @@ An integrated platform for Indian farmers to connect, learn, access expert advic
 * 📉 Price Forecasts → LSTM/RNN models on mandi prices
 * ☀️ Weather Recommendation → OpenWeather + soil type decision engine
 * 📊 Crop Suitability → User's GPS + rainfall + historical yield match
-
----

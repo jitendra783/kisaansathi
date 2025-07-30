@@ -23,11 +23,11 @@ func NewRepoObject(c context.Context) (DataObject, error) {
     var (
 		readEbatestOracleDB *gorm.DB
 	)
-	// readEbatestOracleDB, err := PostgreSqlConnect()
-	// if err != nil {
-	// 	logger.Log(c).Error("Failed to get oracle connection", zap.Error(err))
-	// 	return temp, err
-	// }
+	readEbatestOracleDB, err := PostgreSqlConnect()
+	if err != nil {
+		logger.Log(c).Error("Failed to get postgre connection", zap.Error(err))
+		return temp, err
+	}
 	temp.Databases.PgDB = readEbatestOracleDB
 	redisObj, err := GetRedisObject(c)
 	if err != nil {

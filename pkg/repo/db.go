@@ -25,14 +25,12 @@ func PostgreSqlConnect() (*gorm.DB, error) {
 
 	c := config.GetConfig()
 
-	dsn := "host=" + c.GetString("repo.databases.postgres.host") +
-		" user=" + c.GetString("repo.databases.postgres.user") +
-		" password=" + c.GetString("repo.databases.postgres.password") +
-		" dbname=" + c.GetString("repo.databases.postgres.db") +
-		" port=" + c.GetString("repo.databases.postgres.port") 
-
-	// Connect to database
-	elog.Log().Info("PostgreSQL connection string", zap.String("connStr", dsn))
+	dsn := "host=" + c.GetString("database.host") +
+		" user=" + c.GetString("database.user") +
+		" password=" + c.GetString("database.password") +
+		" dbname=" + c.GetString("database.db") +
+		" port=" + c.GetString("database.port") 
+		
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
 			SingularTable: true,
