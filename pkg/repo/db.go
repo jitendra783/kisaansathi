@@ -5,7 +5,7 @@ import (
 	"kisaanSathi/pkg/config"
 	elog "kisaanSathi/pkg/logger"
 	e "kisaanSathi/pkg/network"
-
+    "fmt"
 	"go.uber.org/zap"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
