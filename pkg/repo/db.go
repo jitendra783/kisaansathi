@@ -28,8 +28,9 @@ func PostgreSqlConnect() (*gorm.DB, error) {
 	dsn := "host=" + c.GetString("database.host") +
 		" user=" + c.GetString("database.user") +
 		" password=" + c.GetString("database.password") +
-		" dbname=" + c.GetString("database.db") +
-		" port=" + c.GetString("database.port") 
+		" dbname=" + c.GetString("database.db")+
+		" sslmode=" +"require" +
+		" channel_binding="+"require"
 		
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
