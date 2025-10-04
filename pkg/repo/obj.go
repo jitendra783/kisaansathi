@@ -29,12 +29,12 @@ func NewRepoObject(c context.Context) (DataObject, error) {
 		return temp, err
 	}
 	temp.Databases.PgDB = readEbatestOracleDB
-	redisObj, err := GetRedisObject(c)
-	if err != nil {
-		logger.Log(c).Error("Failed to get redis connection", zap.Error(err))
-		return temp, err
-	}
-	temp.Cache = redisObj
+	// redisObj, err := GetRedisObject(c)
+	// if err != nil {
+	// 	logger.Log(c).Error("Failed to get redis connection", zap.Error(err))
+	// 	return temp, err
+	// }
+	// temp.Cache = redisObj
 
 	return temp, nil
 }
