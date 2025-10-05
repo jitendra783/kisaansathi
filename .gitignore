@@ -1,15 +1,17 @@
-*.yaml
-*.sh
+# Ignore common file types
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.class
+*.pyc
+*.pyo
 *.json
-*.log
-*.txt
-*.md
-*.csv
 *.xml
 *.html
-*.yml
 *.toml
-*.env
 *.conf
 *.ini
 *.lock
