@@ -5,7 +5,7 @@ import (
 	"kisaanSathi/pkg/config"
 	elog "kisaanSathi/pkg/logger"
 	e "kisaanSathi/pkg/network"
-    "fmt"
+	"fmt"
 	"go.uber.org/zap"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -26,13 +26,13 @@ func PostgreSqlConnect() (*gorm.DB, error) {
 	c := config.GetConfig()
 
 	dsn := fmt.Sprintf(
-    "host=%s user=%s password=%s dbname=%s sslmode=require",
-    c.GetString("database.host"),
-    c.GetString("database.user"),
-    c.GetString("database.password"),
-    c.GetString("database.database"),
-)
-		
+		"host=%s user=%s password=%s dbname=%s sslmode=require",
+		c.GetString("database.host"),
+		c.GetString("database.user"),
+		c.GetString("database.password"),
+		c.GetString("database.database"),
+	)
+
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
 			SingularTable: true,
