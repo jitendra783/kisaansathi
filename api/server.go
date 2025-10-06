@@ -56,7 +56,7 @@ func startRouter(obj serv.ServiceLayer) {
 		Handler: getRouter(obj, logger.Log()), //getRouter set the api specs for version-1 routes
 	}
 	// run api router
-	logger.Log().Info("starting router")
+	logger.Log().Info("starting router on", zap.Int("port", config.GetConfig().GetInt("server.port")))
 	go func() {
 		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			logger.Log().Fatal("Error starting server", zap.Error(err))

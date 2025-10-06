@@ -4,42 +4,42 @@ import (
 	"context"
 	"kisaanSathi/pkg/logger"
 	"kisaanSathi/pkg/services/user/models"
+
+	"go.uber.org/zap"
 )
 
-func (s *controller) Login(ctx context.Context, request *models.LoginRequest) (data []*models.LoginResponse, err error) {
-	logger.Log(ctx).Debug("START")
-	defer logger.Log(ctx).Debug("END")
+func (s *controller) Login(ctx context.Context, request *models.LoginRequest) (*models.LoginResponse, error) {
+	logger.Log(ctx).Debug("START Login")
+	defer logger.Log(ctx).Debug("END Login")
 
-	var matchAccount = request.Email
-	result, err := s.registerStore.Login(ctx, matchAccount)
-	return result, err
-
-}
-func (s *controller) Logout(ctx context.Context, request *models.LogoutRequest) (data []*models.LoginResponse, err error) {
-	logger.Log(ctx).Debug("START")
-	defer logger.Log(ctx).Debug("END")
-	result, err := s.registerStore.Login(ctx, request.LogoutFlag)
-	return result, err
+	result, err := s.registerStore.Login(ctx, request.Email, request.Password)
+	if err != nil {
+		logger.Log(ctx).Error("Login failed", zap.Error(err))
+		return nil, err
+	}
+	return result, nil
 }
 
-func (s *controller) Register(ctx context.Context, request *models.RegisterRequest) (data []*models.RegisterResponse, err error) {
-	logger.Log(ctx).Debug("START")
-	defer logger.Log(ctx).Debug("END")
-	result, err := s.registerStore.Register(ctx, "", "", "")
-	return result, err
+func (s *controller) Logout(ctx context.Context, request *models.LogoutRequest) (*models.LogoutResponse, error) {
+	logger.Log(ctx).Debug("START Logout")
+	defer logger.Log(ctx).Debug("END Logout")
+
+	err := s.registerStore.Logout(ctx, request.LogoutFlag)
+	if err != nil {
+		logger.Log(ctx).Error("Logout failed", zap.Error(err))
+		return nil, err
+	}
+	return &models.LogoutResponse{Message: "Logged out successfully"}, nil
 }
 
-// func (s *controller) RefreshToken(ctx context.Context, request *models.RefreshTokenRequest) (data []*models.Refre, err error) {
-// 	logger.Log(ctx).Debug("START")
-// 	defer logger.Log(ctx).Debug("END")
-// 	// var comp_cd = request.FML_COMP_CD
-// 	// var sch_cd = request.FML_MF_SCH_CD
-// 	// var ld_type = request.FML_MF_LD_TYPE
-// 	logger.Log(ctx).Debug("company code:", zap.String("value", request.FML_COMP_CD))
-// 	logger.Log(ctx).Debug("scheme code:", zap.String("value", request.FML_MF_SCH_CD))
-// 	logger.Log(ctx).Debug("ld type:", zap.String("value", request.FML_MF_LD_TYPE))
-// 	logger.Log(ctx).Debug("Check input  details")
+func (s *controller) Register(ctx context.Context, request *models.RegisterRequest) error {
+	logger.Log(ctx).Debug("START Register")
+	defer logger.Log(ctx).Debug("END Register")
 
-// 	//result, err := s.db.GetDtlsDetails(ctx, comp_cd, sch_cd, ld_type)
-// 	return data, err
-// }
+	err := s.registerStore.Register(ctx, request.Mobile, request.Email, request.Password)
+	if err != nil {
+		logger.Log(ctx).Error("Error in register", zap.Error(err))
+		return err
+	}
+	return nil
+}

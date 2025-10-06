@@ -8,25 +8,26 @@ type LogoutRequest struct {
 	LogoutFlag string `json:"logoutFlag" binding:"required,oneof=Y N"`
 }
 type LoginResponse struct {
-	Token   string `json:"FML_COMP_CD,omitempty"`
-	XLength string `json:"FML_LM_FLG,omitempty"`
+	Token string `json:"token"`
+	Name  string `json:"name"`
+	Role  string `json:"role"`
+	Email string `json:"email"`
 }
 
-type MfListDetails struct {
-	MFCompCd     string `gorm:"column:MF_COMP_CD1"`
-	MFCompTiFlag string `gorm:"column:MF_COMP_TI_FLG1"`
-	MFCompName   string `gorm:"column:MF_COMP_NAME1"`
+type LogoutResponse struct {
+	Message string `json:"message"`
 }
-
 type RegisterRequest struct {
-	FirstName string `json:"firstName" binding:"required"`
-	LastName  string `json:"lastName" binding:"required"`
-	Address   string `json:"address" binding:"required"`
-	Mobile    string `json:"mobile" binding:"required"`
-	Email     string `json:"email" binding:"required"`
-	ZipCode   string `json:"zipcode" binding:"required"`
-	State     string `json:"state" binding:"required"`
-	District  string `json:"district" binding:"required"`
+	FirstName       string `json:"firstName" binding:"required"`
+	LastName        string `json:"lastName" binding:"required"`
+	Address         string `json:"address" binding:"required"`
+	Mobile          string `json:"mobile" binding:"required"`
+	Password        string `json:"password" binding:"required"`
+	//ConfirmPassword string `json:"confirmPassword" binding:"required,eqfield=Password" error:"Password and Confirm Password must be same"`
+	Email           string `json:"email" binding:"required"`
+	ZipCode         string `json:"zipcode" binding:"required"`
+	State           string `json:"state" binding:"required"`
+	District        string `json:"district" binding:"required"`
 }
 
 type RegisterResponse struct {
@@ -44,14 +45,15 @@ type RefreshTokenRequest struct {
 	FML_NOMINATION_FLG string `json:"FML_NOMINATION_FLG" binding:"omitempty,oneof=Y N"`
 	FML_RQST_TYP       string `json:"FML_RQST_TYP" binding:"omitempty,oneof=Y N"`
 }
-type SipprotectAmcListRequest struct {
-	FML_MATCH_ACCNT string `json:"FML_MATCH_ACCNT" binding:"matchaccount"`
-	FML_TRNSCTN_FLW string `json:"FML_TRNSCTN_FLW" binding:"omitempty,oneof=Y N"`
-	FML_PRDCT_TYP   string `json:"FML_PRDCT_TYP" binding:"omitempty,oneof=Y N"`
-	FML_RQST_TYP    string `json:"FML_RQST_TYP" binding:"omitempty,oneof=Y N"`
-}
 
-type MfListResponse struct {
-	FML_COMP_CD   string `json:"FML_COMP_CD,omitempty"`
-	FML_COMP_NAME string `json:"FML_COMP_NAME,omitempty"`
+type User struct {
+	ID       int64  `gorm:"primaryKey" json:"id"`
+	Name     string `json:"name"`
+	Phone    string `json:"phone"`
+	Role     string `json:"role"`
+	Language string `json:"language"`
+	SoilType string `json:"soil_type"`
+	District string `json:"district"`
+	Email    string `json:"email"`
+	Password string `json:"password"`
 }

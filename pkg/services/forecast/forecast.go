@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
-	"kisaanSathi/models"
+	"kisaanSathi/pkg/services/forecast/models"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
