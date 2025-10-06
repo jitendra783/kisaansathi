@@ -11,9 +11,9 @@ type controller struct {
 }
 
 type RegisterController interface {
-	Login(ctx context.Context, request *models.LoginRequest) (data []*models.LoginResponse, err error)
-	Logout(ctx context.Context, request *models.LogoutRequest) (data []*models.LoginResponse, err error)
-	Register(ctx context.Context, request *models.RegisterRequest) (data []*models.RegisterResponse, err error)
+	Login(ctx context.Context, request *models.LoginRequest) (data *models.LoginResponse, err error)
+	Logout(ctx context.Context, request *models.LogoutRequest) (data *models.LogoutResponse, err error)
+	Register(ctx context.Context, request *models.RegisterRequest) (err error)
 	//RefreshToken(ctx context.Context, request *models.DtlsRequest) (data []*models.DtlsResponse, err error)
 }
 
