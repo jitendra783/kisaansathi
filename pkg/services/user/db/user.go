@@ -5,63 +5,80 @@ import (
 	"errors"
 	"kisaanSathi/pkg/logger"
 	"kisaanSathi/pkg/services/user/models"
+	"time"
 
+	"github.com/golang-jwt/jwt/v5"
 	"go.uber.org/zap"
+	"golang.org/x/crypto/bcrypt"
 )
 
-func (g *registerStore) Login(c context.Context, matchAccount string) ([]*models.LoginResponse, error) {
-	logger.Log(c).Debug("START")
-	logger.Log(c).Debug("END")
+var jwtSecret = []byte("abcde") // TODO: store in env
 
-	var items []*models.LoginResponse // Assuming scheme.Item is the response type
+// Login authenticates a user and returns JWT token
+func (g *registerStore) Login(c context.Context, email string, password string) (*models.LoginResponse, error) {
+	logger.Log(c).Debug("START Login")
+	defer logger.Log(c).Debug("END Login")
 
-	var mfLists []models.MfListDetails
-	// Perform the query
-	// i_flg_nri := utils.Strings(matchAccount).IsNriUser()
-	// query := `	SELECT  mf_comp_cd AS "MF_COMP_CD1",
-	//                   	mf_comp_name AS "MF_COMP_NAME1",
-	//                   	mf_comp_ti_flg AS "MF_COMP_TI_FLG1"
-	// 			FROM  	mf_companies
-	// 			WHERE 	nvl(MF_COMP_STATUS_FLG,'N') = 'Y'
-	// 			AND		MF_COMP_NRI_FLG = decode(?, 'N', MF_COMP_NRI_FLG, 'Y')
-	// 			ORDER BY mf_comp_name`
-	// // Scan the results into the items slice
-	// err := g.store.WithContext(c).Raw(query, i_flg_nri).Scan(&mfLists).Error
-	// if err != nil {
-	// 	logger.Log(c).Error("Error executing query", zap.Error(err))
-	// 	return nil, err
-	// }
-
-	// logger.Log(c).Debug("Query:", zap.Any("query", query))
-
-	for _, mf := range mfLists {
-		items = append(items, &models.LoginResponse{
-			Token:   mf.MFCompCd,
-			XLength: mf.MFCompName,
-		})
+	var user models.User
+	err := g.store.WithContext(c).Table("kisan.users").
+		Where("email = ?", email).
+		First(&user).Error
+	if err != nil {
+		logger.Log(c).Error("User not found", zap.Error(err))
+		return nil, errors.New("invalid email or password")
 	}
-	logger.Log(c).Debug("Result:", zap.Any("result:", items))
-	if items == nil {
-		return items, errors.New("data not found")
+
+	// Compare hashed password
+	if bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(password)) != nil {
+		return nil, errors.New("invalid email or password")
 	}
-	return items, nil
+
+	// Generate JWT token
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
+		"user_id": user.ID,
+		"email":   user.Email,
+		"role":    user.Role,
+		"exp":     time.Now().Add(24 * time.Hour).Unix(),
+	})
+
+	tokenString, err := token.SignedString(jwtSecret)
+	if err != nil {
+		logger.Log(c).Error("JWT generation failed", zap.Error(err))
+		return nil, err
+	}
+
+	resp := &models.LoginResponse{
+		Token: tokenString,
+		Name:  user.Name,
+		Role:  user.Role,
+		Email: user.Email,
+	}
+
+	return resp, nil
 }
-func (g *registerStore) Logout(c context.Context, matchAccount string, nominationFlg string, rqstType string) ([]*models.LoginResponse, error) {
-	logger.Log(c).Debug("START")
-	logger.Log(c).Debug("END")
-	var logoutResponse []*models.LoginResponse
-	return logoutResponse, nil
+
+func (g *registerStore) Register(c context.Context, password, phone, email string) error {
+	logger.Log(c).Debug("START Register")
+	defer logger.Log(c).Debug("END Register")
+
+	hashedPassword, _ := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+
+	err := g.store.WithContext(c).Exec(`
+		INSERT INTO kisan.users (name, phone, role, language, soil_type, district, lat, lng, created_at, password, email)
+		VALUES (?, ?, ?, ?, ?, ?, 0, 0, now(), ?, ?)`,
+		"jitendra", phone, "farmer", "hindi", "moisture", "dewas", hashedPassword, email,
+	).Error
+
+	if err != nil {
+		logger.Log(c).Error("Error inserting user", zap.Error(err))
+		return err
+	}
+	return nil
 }
 
-func (g *registerStore) Register(c context.Context, matchAccount string, sipProductFlg string, sipTransactionFlg string) ([]*models.RegisterResponse, error) {
-	logger.Log(c).Debug("START")
-	logger.Log(c).Debug("END")
-
-	var items []*models.RegisterResponse
-
-	logger.Log(c).Debug("Result:", zap.Any("result:", items))
-	if items == nil {
-		return items, errors.New("data not found")
-	}
-	return items, nil
+func (g *registerStore) Logout(c context.Context, logoutFlag string) error {
+	logger.Log(c).Debug("START Logout")
+	defer logger.Log(c).Debug("END Logout")
+	// You can blacklist JWT here if using Redis, else client just deletes token.
+	return nil
 }

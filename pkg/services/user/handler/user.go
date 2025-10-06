@@ -23,9 +23,7 @@ func (f *handler) Register(c *gin.Context) {
 		return
 	}
 
-	data, err := f.controller.Register(c, &request)
-
-	logger.Log(c).Debug("data", zap.Any("data", data))
+	err := f.controller.Register(c, &request)
 
 	if err != nil {
 		logger.Log(c).Error("Something went wrong", zap.String("error", err.Error()))
@@ -34,7 +32,7 @@ func (f *handler) Register(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, network.SuccessResponse(data))
+	c.JSON(http.StatusOK, network.SuccessResponse("Registered Successfully"))
 }
 func (f *handler) Login(c *gin.Context) {
 	logger.Log(c).Debug("SERVICE-START")
