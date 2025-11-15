@@ -13,8 +13,9 @@ type registerStore struct {
 
 type RegisterStore interface {
 	Login(context.Context, string, string) (*models.LoginResponse, error)
-	Logout(context.Context, string) ( error)
+	Logout(context.Context, string) error
 	Register(context.Context, string, string, string) error
+	GetUserDetails(c context.Context, email string) (*models.User, error)
 }
 
 func NewDBObject(store *gorm.DB) RegisterStore {

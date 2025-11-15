@@ -89,3 +89,28 @@ func (f *handler) Logout(c *gin.Context) {
 
 	c.JSON(http.StatusOK, network.SuccessResponse(data))
 }
+
+func (s *handler) GetUserDetails(c *gin.Context) {
+	logger.Log(c).Debug("SERVICE-START")
+	defer logger.Log(c).Debug("SERVICE-END")
+	email := c.Query("email")
+	if email == "" {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "email query param is required"})
+		return
+	}
+	user, err := s.controller.GetUserDetails(c, email)
+	if err != nil {
+
+		logger.Log(c).Error("Something went wrong", zap.String("error", err.Error()))
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+	if user == nil {
+		logger.Log(c).Error("No data found", zap.String("error", ("no data found")))
+		c.JSON(http.StatusNotFound, network.FailureResponse(network.ApiErrors.NoDataFound.WithErrorDescription(("no data found"))))
+		c.Abort()
+		return
+	}
+
+	c.JSON(http.StatusOK, user)
+}

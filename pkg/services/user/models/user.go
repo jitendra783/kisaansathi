@@ -18,16 +18,16 @@ type LogoutResponse struct {
 	Message string `json:"message"`
 }
 type RegisterRequest struct {
-	FirstName       string `json:"firstName" binding:"required"`
-	LastName        string `json:"lastName" binding:"required"`
-	Address         string `json:"address" binding:"required"`
-	Mobile          string `json:"mobile" binding:"required"`
-	Password        string `json:"password" binding:"required"`
+	FirstName string `json:"firstName" binding:"required" error:"First name is required"`
+	LastName  string `json:"lastName" binding:"omitempty" error:"Last name is required"`
+	Address   string `json:"address" binding:"omitempty" error:"Address is required"`
+	Mobile    string `json:"mobile" binding:"required" error:"Mobile number is required"`
+	Password  string `json:"password" binding:"required" error:"Password is required"`
 	//ConfirmPassword string `json:"confirmPassword" binding:"required,eqfield=Password" error:"Password and Confirm Password must be same"`
-	Email           string `json:"email" binding:"required"`
-	ZipCode         string `json:"zipcode" binding:"required"`
-	State           string `json:"state" binding:"required"`
-	District        string `json:"district" binding:"required"`
+	Email    string `json:"email" binding:"required" error:"Email is required"`
+	ZipCode  string `json:"zipcode" binding:"omitempty" error:"Zipcode is required"`
+	State    string `json:"state" binding:"omitempty" error:"State is required"`
+	District string `json:"district" binding:"omitempty" error:"District is required"`
 }
 
 type RegisterResponse struct {
@@ -47,7 +47,7 @@ type RefreshTokenRequest struct {
 }
 
 type User struct {
-	ID       int64  `gorm:"primaryKey" json:"id"`
+	ID       int64  `gorm:"primaryKey" json:"-"`
 	Name     string `json:"name"`
 	Phone    string `json:"phone"`
 	Role     string `json:"role"`
@@ -55,5 +55,6 @@ type User struct {
 	SoilType string `json:"soil_type"`
 	District string `json:"district"`
 	Email    string `json:"email"`
-	Password string `json:"password"`
+	Password string `json:"-"`
 }
+

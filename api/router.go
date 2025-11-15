@@ -16,11 +16,20 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"
+	 "github.com/gin-contrib/cors"
 	"go.uber.org/zap"
 )
 
 func getRouter(obj serv.ServiceLayer, logger *zap.Logger) *gin.Engine {
 	router := gin.New()
+	router.Use(cors.New(cors.Config{
+		AllowOrigins:     []string{"*"},
+		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"},
+		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
+		ExposeHeaders:    []string{"Content-Length"},
+		AllowCredentials: true,
+		MaxAge:           12 * time.Hour,
+	}))
 	if v, ok := binding.Validator.Engine().(*validator.Validate); ok {
 		utils.RegisterValidations(v)
 	}
@@ -40,6 +49,7 @@ func getRouter(obj serv.ServiceLayer, logger *zap.Logger) *gin.Engine {
 		user.POST("/login", obj.Login)
 		user.POST("/logout", obj.Logout)
 		user.POST("/register", obj.Register)
+		user.GET("/details", obj.GetUserDetails)
 		//user.POST("/refreshtoken", obj.RefreshToken)
 	}
 

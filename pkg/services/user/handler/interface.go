@@ -17,6 +17,7 @@ type RegisterHandler interface {
 	Login(c *gin.Context)
 	//RefreshToken(c *gin.Context)
 	Logout(c *gin.Context)
+	GetUserDetails(c *gin.Context)
 }
 
 func NewRegisterHandler(controller controller.RegisterController) RegisterHandler {

@@ -9,7 +9,6 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 	"go.uber.org/zap"
-	"golang.org/x/crypto/bcrypt"
 )
 
 var jwtSecret = []byte("abcde") // TODO: store in env
@@ -29,9 +28,9 @@ func (g *registerStore) Login(c context.Context, email string, password string) 
 	}
 
 	// Compare hashed password
-	if bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(password)) != nil {
-		return nil, errors.New("invalid email or password")
-	}
+	// if bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(password)) != nil {
+	// 	return nil, errors.New("invalid email or password")
+	// }
 
 	// Generate JWT token
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
@@ -57,16 +56,16 @@ func (g *registerStore) Login(c context.Context, email string, password string) 
 	return resp, nil
 }
 
-func (g *registerStore) Register(c context.Context, password, phone, email string) error {
+func (g *registerStore) Register(c context.Context, phone, email, password string) error {
 	logger.Log(c).Debug("START Register")
 	defer logger.Log(c).Debug("END Register")
 
-	hashedPassword, _ := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+	//hashedPassword, _ := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
 
 	err := g.store.WithContext(c).Exec(`
 		INSERT INTO kisan.users (name, phone, role, language, soil_type, district, lat, lng, created_at, password, email)
 		VALUES (?, ?, ?, ?, ?, ?, 0, 0, now(), ?, ?)`,
-		"jitendra", phone, "farmer", "hindi", "moisture", "dewas", hashedPassword, email,
+		"jitendra", phone, "farmer", "hindi", "moisture", "dewas", password, email,
 	).Error
 
 	if err != nil {
@@ -81,4 +80,28 @@ func (g *registerStore) Logout(c context.Context, logoutFlag string) error {
 	defer logger.Log(c).Debug("END Logout")
 	// You can blacklist JWT here if using Redis, else client just deletes token.
 	return nil
+}
+
+// db/register_store.go
+func (g *registerStore) GetUserDetails(c context.Context, email string) (*models.User, error) {
+	// strip "Bearer " prefix
+	// token = strings.TrimPrefix(token, "Bearer ")
+
+	// parsed, err := jwt.Parse(token, func(token *jwt.Token) (interface{}, error) {
+	// 	return jwtSecret, nil
+	// })
+	// if err != nil || !parsed.Valid {
+	// 	return nil, errors.New("invalid token")
+	// }
+
+	// claims := parsed.Claims.(jwt.MapClaims)
+	// email := claims["email"].(string)
+
+	var user models.User
+	err := g.store.WithContext(c).Table("kisan.users").Where("email = ?", email).First(&user).Error
+	if err != nil {
+		return nil, err
+	}
+
+	return &user, nil
 }

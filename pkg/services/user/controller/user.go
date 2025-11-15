@@ -43,3 +43,15 @@ func (s *controller) Register(ctx context.Context, request *models.RegisterReque
 	}
 	return nil
 }
+
+func (s *controller) GetUserDetails(ctx context.Context, email string) (*models.User, error) {
+	logger.Log(ctx).Debug("START Register")
+	defer logger.Log(ctx).Debug("END Register")
+
+	userDetails, err := s.registerStore.GetUserDetails(ctx, email)
+	if err != nil {
+		logger.Log(ctx).Error("Error in register", zap.Error(err))
+		return nil, err
+	}
+	return userDetails, nil
+}
