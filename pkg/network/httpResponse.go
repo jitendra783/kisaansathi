@@ -11,7 +11,7 @@ type HttpResponse struct {
 	Status       string `json:"status"`
 	Data         any    `json:"data,omitempty"`
 	Error        *Error `json:"error,omitempty"`
-	ErrorMessage string `json:"FML_ERROR_MSG,omitempty"`
+	ErrorMessage string `json:"Message,omitempty"`
 }
 
 func SuccessResponse(data any) HttpResponse {

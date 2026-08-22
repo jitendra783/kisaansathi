@@ -1,3 +1,19 @@
+// @title KisaanSathi API
+// @version 1.0
+// @description KisaanSathi Backend API Documentation
+// @termsOfService http://swagger.io/terms/
+
+// @contact.name KisaanSathi Team
+// @contact.email support@kisaansathi.com
+
+// @license.name MIT
+
+// @host localhost:8008
+// @BasePath /v1
+
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Authorization
 package main
 
 import (

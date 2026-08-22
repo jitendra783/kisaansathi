@@ -4,6 +4,7 @@ import (
 	"context"
 	"kisaanSathi/pkg/config"
 	"kisaanSathi/pkg/logger"
+	"kisaanSathi/pkg/middlewares"
 	serv "kisaanSathi/pkg/services"
 
 	"fmt"
@@ -38,7 +39,7 @@ func Start() error {
 		log.Fatal("Invalid log config: ", err)
 	}
 	logger.LoggerInit(config.GetString("log.path"), zapcore.Level(logLevel))
-	
+	middlewares.InitJWT()
 	repoObj, err := repo.NewRepoObject(ctx)
 	if err != nil {
 		logger.Log().Error("Failed to create repo object", zap.Error(err))
@@ -48,7 +49,6 @@ func Start() error {
 	startRouter(serviceObj)
 	return nil
 }
-
 
 func startRouter(obj serv.ServiceLayer) {
 	srv = &http.Server{

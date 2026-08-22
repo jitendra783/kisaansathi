@@ -2,6 +2,7 @@ package utils
 
 import (
 	"bytes"
+	"context"
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
@@ -35,7 +36,7 @@ type RestCaller interface {
 	//		headers: map[key]value
 	//		timeout: api timeoutvalue. default: 500ms
 	//		auth: map[key]value, keys expected-> username, password, token
-	InvokeHttp(c *gin.Context, method string, url string, body interface{}, headers map[string]string, timeout int64, auth map[string]string, queryparams map[string]string, pathparams map[string]string) ([]byte, int, error)
+	InvokeHttp(c context.Context, method string, url string, body interface{}, headers map[string]string, timeout int64, auth map[string]string, queryparams map[string]string, pathparams map[string]string) ([]byte, int, error)
 }
 
 type restCall struct{}
@@ -159,7 +160,7 @@ func (p *restCall) InvokeResty(c *gin.Context, method string, url string, body i
 	return resp, statusCode, err
 }
 
-func (p *restCall) InvokeHttp(c *gin.Context, method string, url string, body interface{}, headers map[string]string, timeout int64, auth map[string]string, queryparams map[string]string, pathparams map[string]string) ([]byte, int, error) {
+func (p *restCall) InvokeHttp(c context.Context, method string, url string, body interface{}, headers map[string]string, timeout int64, auth map[string]string, queryparams map[string]string, pathparams map[string]string) ([]byte, int, error) {
 	logger.Log(c).Info("http requset info", zap.Any("method", method), zap.Any("url", url), zap.Any("body", body), zap.Any("headers", headers), zap.Any("timeout", timeout))
 	var (
 		req *http.Request

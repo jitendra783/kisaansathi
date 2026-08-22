@@ -2,49 +2,67 @@ package repo
 
 import (
 	"context"
+	"fmt"
 	"kisaanSathi/pkg/config"
 	elog "kisaanSathi/pkg/logger"
-	e "kisaanSathi/pkg/network"
-	"fmt"
+
+	_ "github.com/jackc/pgx/v5/stdlib"
+	"github.com/jmoiron/sqlx"
 	"go.uber.org/zap"
-	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
-
 	"gorm.io/gorm/logger"
-	"gorm.io/gorm/schema"
-
-	// "gorm.io/gorm/schema"
 
 	"time"
 )
 
 type dbLogger struct{}
 
-func PostgreSqlConnect() (*gorm.DB, error) {
+func PostgreSqlConnect() (*sqlx.DB, error) {
 	elog.Log().Info("Connecting to PostgreSQL database")
 
 	c := config.GetConfig()
-
+	sslMode := c.GetString("database.sslmode")
+	if sslMode == "" {
+		sslMode = "disable"
+	}
 	dsn := fmt.Sprintf(
-		"host=%s user=%s password=%s dbname=%s sslmode=require",
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s",
 		c.GetString("database.host"),
+		c.GetString("database.port"),
 		c.GetString("database.user"),
 		c.GetString("database.password"),
 		c.GetString("database.database"),
+		sslMode,
 	)
 
-	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
-		NamingStrategy: schema.NamingStrategy{
-			SingularTable: true,
-		},
-		Logger: customLogger(),
-	})
+	db, err := sqlx.Open("pgx", dsn)
 	if err != nil {
-		elog.Log().Error("failed to connect postgreSQL connection", zap.Error(err), zap.String("connStr", dsn))
-		return nil, e.ApiErrors.PostgresDBConnError
-
+		elog.Log().Error(
+			"Failed to create PostgreSQL connection",
+			zap.Error(err),
+		)
+		SetDBStatus(false, err.Error())
+		return nil, err
 	}
-	elog.Log().Info("postgre Database Connected")
+
+	// Connection Pool
+	db.SetMaxOpenConns(50)
+	db.SetMaxIdleConns(20)
+	db.SetConnMaxLifetime(30 * time.Minute)
+	db.SetConnMaxIdleTime(10 * time.Minute)
+
+	if err := db.Ping(); err != nil {
+		elog.Log().Error(
+			"Failed to ping PostgreSQL",
+			zap.Error(err),
+		)
+		SetDBStatus(false, err.Error())
+		return nil, err
+	}
+
+	elog.Log().Info("PostgreSQL Database Connected Successfully")
+
+	SetDBStatus(true, "")
+
 	return db, nil
 }
 
