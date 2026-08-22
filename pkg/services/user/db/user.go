@@ -139,8 +139,8 @@ package db
 // 	defer logger.Log(ctx).Debug("END UserupdateDetails")
 
 // 	err := g.store.WithContext(ctx).Exec(`
-// 		UPDATE kisan.users 
-// 		SET 
+// 		UPDATE kisan.users
+// 		SET
 // 			bio = COALESCE(NULLIF(?, ''), bio),
 // 		WHERE email = ?`,
 // 		Bio,
@@ -165,8 +165,8 @@ package db
 // 	logger.Log(ctx).Debug("START UpdateAvatar")
 // 	defer logger.Log(ctx).Debug("END UpdateAvatar")
 // 	err := g.store.WithContext(ctx).Exec(`
-// 		UPDATE kisan.users 
-// 		SET 
+// 		UPDATE kisan.users
+// 		SET
 // 			avatar = ?
 // 		WHERE email = ?`,
 // 		avatarURL,

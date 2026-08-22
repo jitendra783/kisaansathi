@@ -33,11 +33,11 @@ type GetPriceRequest struct {
 	District string `form:"district"`
 }
 type TrendingPrice struct {
-    Crop       string  `db:"crop"`
-    Market     string  `db:"market"`
-    ModalPrice float64 `db:"modal_price"`
-    Change     float64 `db:"change"`
-    Trend      string  `db:"trend"`
+	Crop       string  `db:"crop"`
+	Market     string  `db:"market"`
+	ModalPrice float64 `db:"modal_price"`
+	Change     float64 `db:"change"`
+	Trend      string  `db:"trend"`
 }
 type TrendingPriceResponse struct {
 	Crop        string  `json:"crop"`
@@ -49,17 +49,17 @@ type TrendingPriceResponse struct {
 	MaxPrice    float64 `json:"max_price"`
 	ModalPrice  float64 `json:"modal_price"`
 	PriceChange float64 `json:"price_change,omitempty"`
-	Trend        string `json:"trend,omitempty"`
+	Trend       string  `json:"trend,omitempty"`
 	ArrivalDate string  `json:"arrival_date,omitempty"`
 }
 
 type PriceComparisonResponse struct {
-	Crop          string         `json:"crop"`
-	Market        string         `json:"market"`
-	CurrentPrice  float64        `json:"current_price"`
-	Last7Days     []PriceHistory `json:"last_7_days"`
-	Last10Days    []PriceHistory `json:"last_10_days"`
-	Last30Days    []PriceHistory `json:"last_30_days"`
+	Crop         string         `json:"crop"`
+	Market       string         `json:"market"`
+	CurrentPrice float64        `json:"current_price"`
+	Last7Days    []PriceHistory `json:"last_7_days"`
+	Last10Days   []PriceHistory `json:"last_10_days"`
+	Last30Days   []PriceHistory `json:"last_30_days"`
 }
 
 type PriceHistory struct {

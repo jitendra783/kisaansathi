@@ -66,7 +66,7 @@ package controller
 // 		logger.Log(ctx).Error("Error in updating user details", zap.Error(err))
 // 		return nil, err
 // 	}
-// 	return userDetails, nil	
+// 	return userDetails, nil
 // }
 
 // func (s *controller) UpdateAvatar(ctx context.Context, email string, avatarURL string) error {
@@ -93,4 +93,4 @@ package controller
 // // 		return nil, err
 // // 	}
 // // 	return data, nil
-// // }	
+// // }
