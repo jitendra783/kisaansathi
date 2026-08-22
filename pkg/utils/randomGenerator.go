@@ -9,12 +9,13 @@ const letterBytes = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqWrRsStTuUvVwWxXyYzZ0123456
 
 var seededRand *rand.Rand = rand.New(rand.NewSource(time.Now().UnixNano()))
 
-//generates Random string of length provided as argument
+// generates Random string of length provided as argument
+//
 //	string created with combination of a-z, A-Z, 0-9
 //	input:
-// 		length of string
+//		length of string
 //	output:
-// 		string
+//		string
 func RandStringBytes(n int) string {
 	b := make([]byte, n)
 	for i := range b {

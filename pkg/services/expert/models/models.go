@@ -5,17 +5,17 @@ package models
 // =========================
 
 type Expert struct {
-	ID                int64   `db:"id" json:"id"`
-	Name              string  `db:"name" json:"name"`
-	Specialization    string  `db:"specialization" json:"specialization"`
-	Experience        int     `db:"experience" json:"experience"`
-	Language          string  `db:"language" json:"language"`
-	Rating            float64 `db:"rating" json:"rating"`
-	Bio               string  `db:"bio" json:"bio"`
-	ConsultationFee   float64 `db:"consultation_fee" json:"consultation_fee"`
-	Phone             string  `db:"phone" json:"phone"`
-	ProfileImage      string  `db:"profile_image" json:"profile_image"`
-	Available         bool    `db:"available" json:"available"`
+	ID              int64   `db:"id" json:"id"`
+	Name            string  `db:"name" json:"name"`
+	Specialization  string  `db:"specialization" json:"specialization"`
+	Experience      int     `db:"experience" json:"experience"`
+	Language        string  `db:"language" json:"language"`
+	Rating          float64 `db:"rating" json:"rating"`
+	Bio             string  `db:"bio" json:"bio"`
+	ConsultationFee float64 `db:"consultation_fee" json:"consultation_fee"`
+	Phone           string  `db:"phone" json:"phone"`
+	ProfileImage    string  `db:"profile_image" json:"profile_image"`
+	Available       bool    `db:"available" json:"available"`
 }
 
 // =========================
@@ -60,7 +60,7 @@ type BookConsultationResponse struct {
 // =========================
 
 type ConsultationHistory struct {
-	BookingID int64  `db:"booking_id" json:"booking_id"`
+	BookingID  int64  `db:"booking_id" json:"booking_id"`
 	ExpertName string `db:"expert_name" json:"expert_name"`
 	Date       string `db:"date" json:"date"`
 	Time       string `db:"time" json:"time"`

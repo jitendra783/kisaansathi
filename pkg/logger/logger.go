@@ -21,7 +21,7 @@ func Log(data ...context.Context) *zap.Logger {
 	if logObject == nil {
 		return fallbackLogger // avoid panic during testing
 	}
-	
+
 	if data != nil {
 		ctx := data[0]
 		return logObject.With(zap.Any("requestID", ctx.Value(config.REQUESTID)), zap.Any("userID", ctx.Value(config.USERID)), zap.Any("ucc", ctx.Value(config.UCC)))

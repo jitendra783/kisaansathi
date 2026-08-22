@@ -35,7 +35,7 @@ func NewCommunityHandler(ctrl controller.CommunityController) CommunityHandler {
 	}
 }
 
-func NewCommunityController(repo repo.DataObject) controller.CommunityController{
+func NewCommunityController(repo repo.DataObject) controller.CommunityController {
 	store := db.NewCommunityStore(repo.Databases.PgDB)
 	return controller.NewCommunityController(store)
 }

@@ -8,10 +8,10 @@ type MetadataResponse struct {
 }
 
 type StatsResponse struct {
-	Farmers  string `json:"farmers"`
-	Experts  string `json:"experts"`
+	Farmers   string `json:"farmers"`
+	Experts   string `json:"experts"`
 	Districts string `json:"districts"`
-	Support  string `json:"support"`
+	Support   string `json:"support"`
 }
 
 type CategoryResponse struct {

@@ -7,7 +7,6 @@ import (
 )
 
 const (
-
 	updateUserDetailsQuery = `
 		UPDATE users
 		SET

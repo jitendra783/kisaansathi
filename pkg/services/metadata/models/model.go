@@ -1,6 +1,5 @@
 package models
 
-
 type MetadataDB struct {
 	ID        int64  `db:"id"`
 	Key       string `db:"key"`

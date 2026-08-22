@@ -30,7 +30,6 @@ func (d *mandiStore) GetMandiBhav() ([]models.MandiPrice, error) {
 	return prices, nil
 }
 
-
 func (d *mandiStore) GetMandiPrices() ([]models.MandiPrice, error) {
 
 	var prices []models.MandiPrice

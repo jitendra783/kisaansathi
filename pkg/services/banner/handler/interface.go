@@ -13,7 +13,6 @@ type handler struct {
 }
 
 type BannerHandler interface {
-
 	GetBanners(c *gin.Context)
 
 	GetBannerByID(c *gin.Context)

@@ -11,7 +11,6 @@ type ContactResponse struct {
 	Message string `json:"message"`
 }
 
-
 type ContactInfo struct {
 	Email     string `db:"email" json:"email"`
 	Phone     string `db:"phone" json:"phone"`

@@ -60,7 +60,6 @@ func (s *soilStore) GetSoilReport(userID int64) (*models.SoilReport, error) {
 	return &report, nil
 }
 
-
 func (s *soilStore) CreateSoilTest(req *models.CreateSoilTestRequest) error {
 
 	query := `
@@ -101,7 +100,6 @@ func (s *soilStore) CreateSoilTest(req *models.CreateSoilTestRequest) error {
 
 	return nil
 }
-
 
 func (s *soilStore) GetSoilRecommendation(userID int64) ([]models.SoilRecommendation, error) {
 

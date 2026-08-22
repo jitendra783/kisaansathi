@@ -26,7 +26,7 @@ type apiError struct {
 	PostgresDBConnError *Error
 	RedisConnError      *Error
 	InvalidToken        *Error
-	InvalidCredentials *Error
+	InvalidCredentials  *Error
 	// Add more errors as needed
 }
 
@@ -50,7 +50,7 @@ func newApiErrorsRegistry() *apiError {
 		GetCacheError:       &Error{Code: 1011, Type: "GetCacheError", ShortError: "Failed to get data from cache"},
 		SetCacheError:       &Error{Code: 1012, Type: "SetCacheError", ShortError: "Failed to set data into cache"},
 		InvalidToken:        &Error{Code: 1013, Type: "InvalidToken", ShortError: "Invalid token"},
-		InvalidCredentials: &Error{Code: 1014, Type: "InvalidCredentials", ShortError: "Invalid credentials"},
+		InvalidCredentials:  &Error{Code: 1014, Type: "InvalidCredentials", ShortError: "Invalid credentials"},
 	}
 }
 

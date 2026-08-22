@@ -45,8 +45,6 @@ func (c *soilController) GetSoilReport(ctx *gin.Context) (*models.SoilReportResp
 	}, nil
 }
 
-
-
 func (c *soilController) CreateSoilTest(ctx *gin.Context) (*models.CommonResponse, error) {
 
 	var req models.CreateSoilTestRequest

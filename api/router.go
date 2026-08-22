@@ -22,6 +22,7 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"go.uber.org/zap"
 )
+
 // @title KisaanSathi API
 // @version 1.0
 // @description This is the API documentation for KisaanSathi.
@@ -44,9 +45,9 @@ func getRouter(obj serv.ServiceLayer, logger *zap.Logger) *gin.Engine {
 	if v, ok := binding.Validator.Engine().(*validator.Validate); ok {
 		utils.RegisterValidations(v)
 	}
-	
+
 	router.Use(customLogger(logger))
-	
+
 	router.Use(gin.Recovery())
 	router.GET("/swagger/*any",
 		ginSwagger.WrapHandler(swaggerFiles.Handler))

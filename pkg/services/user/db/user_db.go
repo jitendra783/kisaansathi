@@ -5,7 +5,6 @@ import (
 )
 
 const (
-
 	deleteUserQuery = `
 		UPDATE users
 		SET

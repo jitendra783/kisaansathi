@@ -78,7 +78,7 @@ type UpdateLocationRequest struct {
 // ==============================
 
 type ChangePasswordRequest struct {
-	Email	   string `json:"email" binding:"required,email"`
+	Email       string `json:"email" binding:"required,email"`
 	OldPassword string `json:"oldPassword" binding:"required"`
 	NewPassword string `json:"newPassword" binding:"required,min=8"`
 }
@@ -124,7 +124,7 @@ type CommonResponse struct {
 type LoginResponse struct {
 	Token        string `json:"token"`
 	RefreshToken string `json:"refreshToken"`
-	User          User   `json:"user"`
+	User         User   `json:"user"`
 }
 
 // ==============================

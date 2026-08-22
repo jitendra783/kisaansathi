@@ -27,7 +27,7 @@ type CurrentWeatherResponse struct {
 	WindSpeed  float64 `json:"wind_speed"`
 	Visibility int     `json:"visibility"`
 
-	Clouds int     `json:"clouds"`
+	Clouds  int     `json:"clouds"`
 	UVIndex float64 `json:"uv_index,omitempty"`
 
 	Condition   string `json:"condition"`
@@ -44,7 +44,7 @@ type CurrentWeatherResponse struct {
 
 type ForecastDay struct {
 	Date      string  `json:"date"`
-	Day       string  `json:"day"`   // Monday, Tuesday...
+	Day       string  `json:"day"` // Monday, Tuesday...
 	MinTemp   float64 `json:"min_temp"`
 	MaxTemp   float64 `json:"max_temp"`
 	Rain      float64 `json:"rain_probability"`
@@ -53,12 +53,12 @@ type ForecastDay struct {
 }
 
 type ForecastResponse struct {
-	Location Location `json:"location"`
+	Location Location      `json:"location"`
 	Days     []ForecastDay `json:"days"`
 }
 
 type WeeklyForecastResponse struct {
-	Location Location `json:"location"`
+	Location Location      `json:"location"`
 	Days     []ForecastDay `json:"days"`
 }
 
@@ -76,7 +76,7 @@ type HourlyWeather struct {
 }
 
 type HourlyResponse struct {
-	Location Location `json:"location"`
+	Location Location        `json:"location"`
 	Hours    []HourlyWeather `json:"hours"`
 }
 
@@ -97,7 +97,7 @@ type WeatherAlert struct {
 }
 
 type AlertResponse struct {
-	Location Location `json:"location"`
+	Location Location       `json:"location"`
 	Alerts   []WeatherAlert `json:"alerts"`
 }
 
@@ -134,7 +134,7 @@ type RainfallForecast struct {
 }
 
 type RainfallResponse struct {
-	Location Location `json:"location"`
+	Location Location           `json:"location"`
 	Forecast []RainfallForecast `json:"forecast"`
 }
 
@@ -149,6 +149,6 @@ type CropAdvisory struct {
 }
 
 type AdvisoryResponse struct {
-	Location   Location `json:"location"`
+	Location   Location       `json:"location"`
 	Advisories []CropAdvisory `json:"advisories"`
 }

@@ -15,8 +15,7 @@ type MandiController interface {
 	GetStatePrices(state string) ([]models.MandiPriceResponse, error)
 	GetDistrictPrices(district string) ([]models.MandiPriceResponse, error)
 	GetTrendingPrices() ([]models.TrendingPriceResponse, error)
-		GetPriceComparison(crop, market string) (*models.PriceComparisonResponse, error)
-
+	GetPriceComparison(crop, market string) (*models.PriceComparisonResponse, error)
 }
 
 func NewMandiController(store db.MandiStore) MandiController {
