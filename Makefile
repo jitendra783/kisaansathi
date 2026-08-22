@@ -1,18 +1,31 @@
-MAIN_FILE_PATH=app/main.go
-BIN_PATH=app/kisaanSathi
+APP_NAME := kisansathi-backend
+MAIN_FILE := ./app/main.go
 
-default: build run
-
-# Need to have GCC compiler in PATH or must specify
-build-prod:
-	CGO_ENABLED=1 GOARCH=amd64 GOOS=linux go build -tags with_appd -ldflags "-s -w -r -Wl,-rpath,libs" -o $(BIN_PATH) $(MAIN_FILE_PATH)
-
-# For testing purpose, build the binary for prod server on macos
-build-prod-macos:
-	CC=x86_64-unknown-linux-gnu-gcc CGO_ENABLED=1 GOARCH=amd64 GOOS=linux go build -tags with_appd -ldflags "-s -w -r -Wl,-rpath,libs" -o $(BIN_PATH) $(MAIN_FILE_PATH)
-
-build:
-	go build -o $(BIN_PATH) $(MAIN_FILE_PATH)
+.PHONY: run build test clean docker-build docker-run docker-stop tidy
 
 run:
-	./$(BIN_PATH)
+	go run $(MAIN_FILE)
+
+build:
+	go build -o bin/$(APP_NAME) $(MAIN_FILE)
+
+test:
+	go test ./...
+
+tidy:
+	go mod tidy
+
+clean:
+	rm -rf bin
+
+docker-build:
+	docker build -t $(APP_NAME):latest .
+
+docker-run:
+	docker run --rm -p 8008:8008 --name $(APP_NAME) $(APP_NAME):latest
+
+docker-stop:
+	docker stop $(APP_NAME)
+
+docker-clean:
+	docker rm -f $(APP_NAME) 2>/dev/null || true
