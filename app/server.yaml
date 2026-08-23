@@ -8,7 +8,7 @@ database:
   host: ep-rough-pine-a1dfz0ok-pooler.ap-southeast-1.aws.neon.tech
   port: 5432
   user: neondb_owner
-  password: ${DATABASE_PASSWORD}
+  password: $DATABASE_PASSWORD
   database: kisandb
   sslmode: require
   channel_binding: require
