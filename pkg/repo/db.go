@@ -25,13 +25,14 @@ func PostgreSqlConnect() (*sqlx.DB, error) {
 		sslMode = "disable"
 	}
 	dsn := fmt.Sprintf(
-		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s",
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s channel_binding=%s",
 		c.GetString("database.host"),
 		c.GetString("database.port"),
 		c.GetString("database.user"),
 		c.GetString("database.password"),
 		c.GetString("database.database"),
 		sslMode,
+		c.GetString("database.channel_binding"),
 	)
 
 	db, err := sqlx.Open("pgx", dsn)
@@ -57,6 +58,28 @@ func PostgreSqlConnect() (*sqlx.DB, error) {
 		)
 		SetDBStatus(false, err.Error())
 		return nil, err
+	}
+
+	// Set PostgreSQL schema
+	schema := c.GetString("database.schema")
+
+	if schema != "" {
+		_, err := db.Exec(
+			fmt.Sprintf(`SET search_path TO "%s"`, schema),
+		)
+		if err != nil {
+			elog.Log().Error(
+				"Failed to set PostgreSQL schema",
+				zap.Error(err),
+			)
+			SetDBStatus(false, err.Error())
+			return nil, err
+		}
+
+		elog.Log().Info(
+			"PostgreSQL schema set successfully",
+			zap.String("schema", schema),
+		)
 	}
 
 	elog.Log().Info("PostgreSQL Database Connected Successfully")

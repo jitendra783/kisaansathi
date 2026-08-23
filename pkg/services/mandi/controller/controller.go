@@ -1,6 +1,9 @@
 package controller
 
-import "kisaanSathi/pkg/services/mandi/models"
+import (
+	"kisaanSathi/pkg/services/mandi/models"
+	"strconv"
+)
 
 // GetMandiBhav returns latest mandi prices
 func (c *mandiController) GetMandiBhav() ([]models.MandiPriceResponse, error) {
@@ -13,14 +16,18 @@ func (c *mandiController) GetMandiBhav() ([]models.MandiPriceResponse, error) {
 	response := make([]models.MandiPriceResponse, 0, len(result))
 
 	for _, item := range result {
+		// convert to int
+		id, _ := strconv.Atoi(item.ID.String)
 		response = append(response, models.MandiPriceResponse{
-			Crop:       item.Crop,
-			Market:     item.Market,
-			State:      item.State,
-			District:   item.District,
-			MinPrice:   item.MinPrice,
-			MaxPrice:   item.MaxPrice,
-			ModalPrice: item.ModalPrice,
+			ID:          id,
+			Crop:        item.Crop.String,
+			Market:      item.Market.String,
+			State:       item.State.String,
+			District:    item.District.String,
+			MinPrice:    item.MinPrice.Float64,
+			MaxPrice:    item.MaxPrice.Float64,
+			ModalPrice:  item.ModalPrice.Float64,
+			ArrivalDate: item.ArrivalDate.Time.Format("2006-01-02"),
 		})
 	}
 
@@ -38,14 +45,16 @@ func (c *mandiController) GetMandiPrices() ([]models.MandiPriceResponse, error) 
 	response := make([]models.MandiPriceResponse, 0, len(result))
 
 	for _, item := range result {
+		id, _ := strconv.Atoi(item.ID.String)
 		response = append(response, models.MandiPriceResponse{
-			Crop:       item.Crop,
-			Market:     item.Market,
-			State:      item.State,
-			District:   item.District,
-			MinPrice:   item.MinPrice,
-			MaxPrice:   item.MaxPrice,
-			ModalPrice: item.ModalPrice,
+			ID:          id,
+			Crop:        item.Crop.String,
+			Market:      item.Market.String,
+			State:       item.State.String,
+			District:    item.District.String,
+			MinPrice:    item.MinPrice.Float64,
+			MaxPrice:    item.MaxPrice.Float64,
+			ModalPrice:  item.ModalPrice.Float64,
 		})
 	}
 
@@ -63,14 +72,16 @@ func (c *mandiController) GetCropPrices(crop string) ([]models.MandiPriceRespons
 	response := make([]models.MandiPriceResponse, 0, len(result))
 
 	for _, item := range result {
+		id, _ := strconv.Atoi(item.ID.String)
 		response = append(response, models.MandiPriceResponse{
-			Crop:       item.Crop,
-			Market:     item.Market,
-			State:      item.State,
-			District:   item.District,
-			MinPrice:   item.MinPrice,
-			MaxPrice:   item.MaxPrice,
-			ModalPrice: item.ModalPrice,
+			ID:          id,
+			Crop:        item.Crop.String,
+			Market:      item.Market.String,
+			State:       item.State.String,
+			District:    item.District.String,
+			MinPrice:    item.MinPrice.Float64,
+			MaxPrice:    item.MaxPrice.Float64,
+			ModalPrice:  item.ModalPrice.Float64,
 		})
 	}
 
@@ -88,14 +99,17 @@ func (c *mandiController) GetStatePrices(state string) ([]models.MandiPriceRespo
 	response := make([]models.MandiPriceResponse, 0, len(result))
 
 	for _, item := range result {
+		id, _ := strconv.Atoi(item.ID.String)
+
 		response = append(response, models.MandiPriceResponse{
-			Crop:       item.Crop,
-			Market:     item.Market,
-			State:      item.State,
-			District:   item.District,
-			MinPrice:   item.MinPrice,
-			MaxPrice:   item.MaxPrice,
-			ModalPrice: item.ModalPrice,
+			ID:          id,
+			Crop:        item.Crop.String,
+			Market:      item.Market.String,
+			State:       item.State.String,
+			District:    item.District.String,
+			MinPrice:    item.MinPrice.Float64,
+			MaxPrice:    item.MaxPrice.Float64,
+			ModalPrice:  item.ModalPrice.Float64,
 		})
 	}
 
@@ -113,14 +127,16 @@ func (c *mandiController) GetDistrictPrices(district string) ([]models.MandiPric
 	response := make([]models.MandiPriceResponse, 0, len(result))
 
 	for _, item := range result {
+		id, _ := strconv.Atoi(item.ID.String)
 		response = append(response, models.MandiPriceResponse{
-			Crop:       item.Crop,
-			Market:     item.Market,
-			State:      item.State,
-			District:   item.District,
-			MinPrice:   item.MinPrice,
-			MaxPrice:   item.MaxPrice,
-			ModalPrice: item.ModalPrice,
+			ID:          id,
+			Crop:        item.Crop.String,
+			Market:      item.Market.String,
+			State:       item.State.String,
+			District:    item.District.String,
+			MinPrice:    item.MinPrice.Float64,
+			MaxPrice:    item.MaxPrice.Float64,
+			ModalPrice:  item.ModalPrice.Float64,
 		})
 	}
 
@@ -139,11 +155,11 @@ func (c *mandiController) GetTrendingPrices() ([]models.TrendingPriceResponse, e
 
 	for _, item := range result {
 		response = append(response, models.TrendingPriceResponse{
-			Crop:        item.Crop,
-			Market:      item.Market,
-			ModalPrice:  item.ModalPrice,
-			PriceChange: item.Change,
-			Trend:       item.Trend,
+			Crop:        item.Crop.String,
+			Market:      item.Market.String,
+			ModalPrice:  item.ModalPrice.Float64,
+			PriceChange: item.Change.Float64,
+			Trend:       item.Trend.String,
 		})
 	}
 

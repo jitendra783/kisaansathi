@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: kisansathi-api
+    runtime: go
+    plan: free
+
+    buildCommand: go build -o bin/kisansathi-api ./app/main.go
+    startCommand: ./bin/kisansathi-api server
+
+    healthCheckPath: /health
+
+    envVars:
+      - key: DATABASE_PASSWORD
+        sync: false

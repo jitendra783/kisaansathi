@@ -52,19 +52,19 @@ func Load(env string, configPaths ...string) {
 				continue // skipping first line
 			}
 			key := config.GetString(v)
-			if key == "" {
-				resp, err := setStringSlice(v)
-				if err != nil {
-					log.Fatal(err)
-				}
-				config.Set(v, resp)
-			} else {
-				key = strings.ReplaceAll(key, "$", "")
+			if strings.HasPrefix(key, "$") {
+				key = strings.TrimPrefix(key, "$")
 				if ev, ok := os.LookupEnv(key); ok {
 					config.Set(v, ev)
 				} else {
 					log.Fatal("env value for key [", key, "] is missing")
 				}
+			} else if key == "" {
+				resp, err := setStringSlice(v)
+				if err != nil {
+					log.Fatal(err)
+				}
+				config.Set(v, resp)
 			}
 
 		}

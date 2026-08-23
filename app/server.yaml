@@ -2,19 +2,23 @@ version: 1.0
 
 server:
   host: 0.0.0.0
-  port: 8008
+  port: 10000
+
 database:
-  host: localhost
+  host: ep-rough-pine-a1dfz0ok-pooler.ap-southeast-1.aws.neon.tech
   port: 5432
-  user: kisansathi
-  password: kisan@123
-  database: kisansathi
-  schema: kisansathi
-  sslmode: disable
+  user: neondb_owner
+  password: $DATABASE_PASSWORD
+  database: kisandb
+  sslmode: require
+  schema: Kisansathi
+  channel_binding: require
+
 repo:
   redis:
     host: 127.0.0.1
     port: 6379
+
 log:
   path: "app.log"
   level: -1
