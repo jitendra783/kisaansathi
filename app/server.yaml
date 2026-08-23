@@ -5,7 +5,7 @@ server:
   port: 10000
 
 database:
-  host: ep-broad-tooth-a1d6vqge-pooler.ap-southeast-1.aws.neon.tech
+  host: ep-rough-pine-a1dfz0ok-pooler.ap-southeast-1.aws.neon.tech
   port: 5432
   user: neondb_owner
   password: npg_d6n3YjtrcMlq
