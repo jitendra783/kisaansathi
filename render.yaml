@@ -1,0 +1,63 @@
+services:
+  - type: web
+    name: kisansathi-api
+    runtime: go
+    plan: free
+    buildCommand: go build -o bin/kisansathi-api ./app/main.go
+    startCommand: ./bin/kisansathi-api
+    envVars:
+      - key: SERVER_HOST
+        value: 0.0.0.0
+      - key: SERVER_PORT
+        value: 10000
+      - key: DATABASE_HOST
+        fromDatabase:
+          name: kisansathi-db
+          property: host
+      - key: DATABASE_PORT
+        fromDatabase:
+          name: kisansathi-db
+          property: port
+      - key: DATABASE_USER
+        fromDatabase:
+          name: kisansathi-db
+          property: user
+      - key: DATABASE_PASSWORD
+        fromDatabase:
+          name: kisansathi-db
+          property: password
+      - key: DATABASE_NAME
+        fromDatabase:
+          name: kisansathi-db
+          property: database
+      - key: DATABASE_SSLMODE
+        value: require
+      - key: REDIS_HOST
+        value: localhost
+      - key: REDIS_PORT
+        value: 6379
+      - key: LOG_PATH
+        value: /tmp/app.log
+      - key: LOG_LEVEL
+        value: "-1"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_ISSUER
+        value: kisaan-sathi
+      - key: JWT_ACCESS_TOKEN_EXPIRY
+        value: 24h
+      - key: JWT_REFRESH_TOKEN_EXPIRY
+        value: 720h
+      - key: WEATHER_API_KEY
+        sync: false
+      - key: WEATHER_BASE_URL
+        value: https://api.openweathermap.org
+      - key: WEATHER_TIMEOUT
+        value: "5000"
+    healthCheckPath: /health
+
+databases:
+  - name: kisansathi-db
+    plan: free
+    databaseName: kisansathi
+    user: kisansathi

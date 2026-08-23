@@ -33,21 +33,18 @@ func main() {
 	host := os.Getenv("SERVER_HOST")
 	if host != "" {
 		environment = "server"
+	} else if len(os.Args) == 2 {
+		environment = os.Args[1] // developer custom file
 	} else {
-		// Check if a custom environment file is provided
-		if len(os.Args) == 2 {
-			environment = os.Args[1] // developer custom file
-		} else {
-			environment = "local" // default to local environment
-		}
-		config.Load(environment)
-		if err := api.Start(); err != nil {
-			log.Fatal("Failed to start server, err:", err)
-			os.Exit(1)
-		}
-
-		addShutdownHook()
+		environment = "local" // default to local environment
 	}
+	config.Load(environment)
+	if err := api.Start(); err != nil {
+		log.Fatal("Failed to start server, err:", err)
+		os.Exit(1)
+	}
+
+	addShutdownHook()
 }
 
 // addShutdownHook sets up a signal handler to gracefully shut down the server

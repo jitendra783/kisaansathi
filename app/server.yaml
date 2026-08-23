@@ -1,0 +1,33 @@
+version: 1.0
+
+server:
+  host: $SERVER_HOST
+  port: $SERVER_PORT
+
+database:
+  host: ep-broad-tooth-a1d6vqge-pooler.ap-southeast-1.aws.neon.tech
+  port: 5432
+  user: neondb_owner
+  password: npg_d6n3YjtrcMlq
+  database: kisandb
+  sslmode: require
+
+repo:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+log:
+  path: "app.log"
+  level: -1
+
+jwt:
+  secret: "your-super-secret-key"
+  issuer: "kisaan-sathi"
+  accessTokenExpiry: 24h
+  refreshTokenExpiry: 720h
+
+weather:
+  api_key: 461e661c02e76c2afa68174144148d25
+  base_url: https://api.openweathermap.org
+  timeout: 5000

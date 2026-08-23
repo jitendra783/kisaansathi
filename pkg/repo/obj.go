@@ -21,20 +21,20 @@ func NewRepoObject(c context.Context) (DataObject, error) {
 	logger.Log(c).Info("Creating new repository object")
 	temp := DataObject{}
 	var (
-		readEbatestOracleDB *sqlx.DB
+		readkisanSathiOracleDB *sqlx.DB
 	)
-	readEbatestOracleDB, err := PostgreSqlConnect()
+	readkisanSathiOracleDB, err := PostgreSqlConnect()
 	if err != nil {
 		logger.Log(c).Error("Failed to get postgre connection", zap.Error(err))
 		return temp, err
 	}
 
 	// If DB connection failed, log warning but continue with nil DB
-	if readEbatestOracleDB == nil {
+	if readkisanSathiOracleDB == nil {
 		logger.Log(c).Warn("PostgreSQL connection is nil - will use mock data for development/testing")
 	}
 
-	temp.Databases.PgDB = readEbatestOracleDB
+	temp.Databases.PgDB = readkisanSathiOracleDB
 	// redisObj, err := GetRedisObject(c)
 	// if err != nil {
 	// 	logger.Log(c).Error("Failed to get redis connection", zap.Error(err))
