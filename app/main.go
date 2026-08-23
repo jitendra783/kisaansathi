@@ -31,7 +31,8 @@ import (
 func main() {
 	var environment string
 	host := os.Getenv("SERVER_HOST")
-	if host != "" {
+	databaseHost := os.Getenv("DATABASE_HOST")
+	if host != "" || databaseHost != "" {
 		environment = "server"
 	} else if len(os.Args) == 2 {
 		environment = os.Args[1] // developer custom file
