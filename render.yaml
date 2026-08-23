@@ -5,7 +5,7 @@ services:
     plan: free
 
     buildCommand: go build -o bin/kisansathi-api ./app/main.go
-    startCommand: ./bin/kisansathi-api
+    startCommand: ./bin/kisansathi-api server
 
     healthCheckPath: /health
 
