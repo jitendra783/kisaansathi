@@ -1,8 +1,8 @@
 version: 1.0
 
 server:
-  host: $SERVER_HOST
-  port: $SERVER_PORT
+  host:  0.0.0.0
+  port: 10000
 
 database:
   host: ep-broad-tooth-a1d6vqge-pooler.ap-southeast-1.aws.neon.tech
