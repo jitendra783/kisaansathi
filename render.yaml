@@ -9,6 +9,3 @@ services:
 
     healthCheckPath: /health
 
-    envVars:
-      - key: DATABASE_PASSWORD
-        sync: false

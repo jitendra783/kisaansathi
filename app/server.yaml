@@ -8,7 +8,7 @@ database:
   host: ep-broad-tooth-a1d6vqge-pooler.ap-southeast-1.aws.neon.tech
   port: 5432
   user: neondb_owner
-  password: $DATABASE_PASSWORD
+  password: npg_d6n3YjtrcMlq
   database: kisandb
   sslmode: require
   channel_binding: require
