@@ -1,7 +1,7 @@
 version: 1.0
 
 server:
-  host:  0.0.0.0
+  host: 0.0.0.0
   port: 10000
 
 database:
@@ -11,6 +11,7 @@ database:
   password: $DATABASE_PASSWORD
   database: kisandb
   sslmode: require
+  channel_binding: require
 
 repo:
   redis:

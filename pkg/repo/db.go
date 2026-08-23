@@ -25,13 +25,14 @@ func PostgreSqlConnect() (*sqlx.DB, error) {
 		sslMode = "disable"
 	}
 	dsn := fmt.Sprintf(
-		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s",
+		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s channel_binding=%s",
 		c.GetString("database.host"),
 		c.GetString("database.port"),
 		c.GetString("database.user"),
 		c.GetString("database.password"),
 		c.GetString("database.database"),
 		sslMode,
+		c.GetString("database.channel_binding"),
 	)
 
 	db, err := sqlx.Open("pgx", dsn)
