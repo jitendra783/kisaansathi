@@ -18,7 +18,7 @@ func (d *mandiStore) GetMandiBhav() ([]models.MandiPrice, error) {
 			max_price,
 			modal_price,
 			arrival_date
-		FROM mandi_prices
+		FROM market_prices
 		ORDER BY arrival_date DESC
 	`
 
@@ -46,7 +46,7 @@ func (d *mandiStore) GetMandiPrices() ([]models.MandiPrice, error) {
 			max_price,
 			modal_price,
 			arrival_date
-		FROM mandi_prices
+		FROM market_prices
 		ORDER BY crop, market
 	`
 
@@ -74,7 +74,7 @@ func (d *mandiStore) GetCropPrices(crop string) ([]models.MandiPrice, error) {
 			max_price,
 			modal_price,
 			arrival_date
-		FROM mandi_prices
+		FROM market_prices
 		WHERE LOWER(crop) = LOWER($1)
 		ORDER BY modal_price DESC
 	`
@@ -102,7 +102,7 @@ func (d *mandiStore) GetStatePrices(state string) ([]models.MandiPrice, error) {
 			max_price,
 			modal_price,
 			arrival_date
-		FROM mandi_prices
+		FROM market_prices
 		WHERE LOWER(state) = LOWER($1)
 		ORDER BY market
 	`
@@ -131,7 +131,7 @@ func (d *mandiStore) GetDistrictPrices(district string) ([]models.MandiPrice, er
 			max_price,
 			modal_price,
 			arrival_date
-		FROM mandi_prices
+		FROM market_prices
 		WHERE LOWER(district) = LOWER($1)
 		ORDER BY market
 	`
@@ -155,7 +155,7 @@ func (d *mandiStore) GetTrendingPrices() ([]models.TrendingPrice, error) {
 			modal_price,
 			change,
 			trend
-		FROM mandi_trending
+		FROM market_prices
 		ORDER BY change DESC
 		LIMIT 10
 	`
@@ -177,7 +177,7 @@ func (d *mandiStore) GetPriceComparison(crop, market string) ([]models.PriceHist
 			min_price,
 			max_price,
 			modal_price
-		FROM mandi_prices
+		FROM market_prices
 		WHERE LOWER(crop) = LOWER($1)
 		  AND LOWER(market) = LOWER($2)
 		  AND arrival_date >= CURRENT_DATE - INTERVAL '30 days'

@@ -1,22 +1,24 @@
 package models
 
-import "time"
+import (
+	"database/sql"
+)
 
 type MandiPrice struct {
-	ID          int64     `db:"id"`
-	Crop        string    `db:"crop"`
-	Variety     string    `db:"variety"`
-	Market      string    `db:"market"`
-	District    string    `db:"district"`
-	State       string    `db:"state"`
-	MinPrice    float64   `db:"min_price"`
-	MaxPrice    float64   `db:"max_price"`
-	ModalPrice  float64   `db:"modal_price"`
-	ArrivalDate time.Time `db:"arrival_date"`
+	ID          sql.NullString   `db:"id"`
+	Crop        sql.NullString  `db:"crop"`
+	Variety     sql.NullString  `db:"variety"`
+	Market      sql.NullString  `db:"market"`
+	District    sql.NullString  `db:"district"`
+	State       sql.NullString  `db:"state"`
+	MinPrice    sql.NullFloat64 `db:"min_price"`
+	MaxPrice    sql.NullFloat64 `db:"max_price"`
+	ModalPrice  sql.NullFloat64 `db:"modal_price"`
+	ArrivalDate sql.NullTime    `db:"arrival_date"`
 }
 
 type MandiPriceResponse struct {
-	ID          int64   `json:"id"`
+	ID          int   `json:"id"`
 	Crop        string  `json:"crop"`
 	Variety     string  `json:"variety"`
 	Market      string  `json:"market"`
@@ -33,11 +35,11 @@ type GetPriceRequest struct {
 	District string `form:"district"`
 }
 type TrendingPrice struct {
-	Crop       string  `db:"crop"`
-	Market     string  `db:"market"`
-	ModalPrice float64 `db:"modal_price"`
-	Change     float64 `db:"change"`
-	Trend      string  `db:"trend"`
+	Crop       sql.NullString  `db:"crop"`
+	Market     sql.NullString  `db:"market"`
+	ModalPrice sql.NullFloat64 `db:"modal_price"`
+	Change     sql.NullFloat64 `db:"change"`
+	Trend      sql.NullString  `db:"trend"`
 }
 type TrendingPriceResponse struct {
 	Crop        string  `json:"crop"`
