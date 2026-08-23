@@ -60,6 +60,28 @@ func PostgreSqlConnect() (*sqlx.DB, error) {
 		return nil, err
 	}
 
+	// Set PostgreSQL schema
+	schema := c.GetString("database.schema")
+
+	if schema != "" {
+		_, err := db.Exec(
+			fmt.Sprintf(`SET search_path TO "%s"`, schema),
+		)
+		if err != nil {
+			elog.Log().Error(
+				"Failed to set PostgreSQL schema",
+				zap.Error(err),
+			)
+			SetDBStatus(false, err.Error())
+			return nil, err
+		}
+
+		elog.Log().Info(
+			"PostgreSQL schema set successfully",
+			zap.String("schema", schema),
+		)
+	}
+
 	elog.Log().Info("PostgreSQL Database Connected Successfully")
 
 	SetDBStatus(true, "")

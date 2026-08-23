@@ -9,6 +9,7 @@ database:
   user: kisansathi
   password: kisan@123
   database: kisansathi
+  schema: Kisansathi
   sslmode: disable
 repo:
   redis:

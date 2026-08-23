@@ -11,6 +11,7 @@ database:
   password: $DATABASE_PASSWORD
   database: kisandb
   sslmode: require
+  schema: Kisansathi
   channel_binding: require
 
 repo:
