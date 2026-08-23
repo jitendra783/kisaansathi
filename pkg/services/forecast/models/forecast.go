@@ -1,4 +1,5 @@
 package models
+
 type GeoResponse struct {
 	Results []struct {
 		Latitude  float64 `json:"latitude"`

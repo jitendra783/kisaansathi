@@ -25,6 +25,8 @@ type apiError struct {
 	SetCacheError       *Error
 	PostgresDBConnError *Error
 	RedisConnError      *Error
+	InvalidToken        *Error
+	InvalidCredentials  *Error
 	// Add more errors as needed
 }
 
@@ -47,6 +49,8 @@ func newApiErrorsRegistry() *apiError {
 		DelDBError:          &Error{Code: 1010, Type: "DelDBError", ShortError: "Failed to delete data from table"},
 		GetCacheError:       &Error{Code: 1011, Type: "GetCacheError", ShortError: "Failed to get data from cache"},
 		SetCacheError:       &Error{Code: 1012, Type: "SetCacheError", ShortError: "Failed to set data into cache"},
+		InvalidToken:        &Error{Code: 1013, Type: "InvalidToken", ShortError: "Invalid token"},
+		InvalidCredentials:  &Error{Code: 1014, Type: "InvalidCredentials", ShortError: "Invalid credentials"},
 	}
 }
 
@@ -72,7 +76,7 @@ func (e *Error) WithErrorDescription(errorDesc string) Error {
 	return err
 }
 
-// func (e *Error) GetErrorSlice(str string) (out []Error) {
-// 	out = append(out, e.WithErrorDescription(str))
-// 	return
-// }
+func (e *Error) GetErrorSlice(str string) (out []Error) {
+	out = append(out, e.WithErrorDescription(str))
+	return
+}

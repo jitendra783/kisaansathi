@@ -1,0 +1,49 @@
+basePath: /v1
+definitions:
+  models.LoginRequest:
+    properties:
+      email:
+        type: string
+      password:
+        minLength: 8
+        type: string
+    required:
+    - email
+    - password
+    type: object
+host: localhost:8008
+info:
+  contact:
+    email: support@kisaansathi.com
+    name: KisaanSathi Team
+  description: KisaanSathi Backend API Documentation
+  license:
+    name: MIT
+  termsOfService: http://swagger.io/terms/
+  title: KisaanSathi API
+  version: "1.0"
+paths:
+  /user/login:
+    post:
+      consumes:
+      - application/json
+      description: Authenticate user and return JWT token
+      parameters:
+      - description: Login Request
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/models.LoginRequest'
+      produces:
+      - application/json
+      responses: {}
+      summary: User Login
+      tags:
+      - User
+securityDefinitions:
+  BearerAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

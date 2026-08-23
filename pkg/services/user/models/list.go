@@ -18,16 +18,16 @@ type LogoutResponse struct {
 	Message string `json:"message"`
 }
 type RegisterRequest struct {
-	FirstName       string `json:"firstName" binding:"required"`
-	LastName        string `json:"lastName" binding:"required"`
-	Address         string `json:"address" binding:"required"`
-	Mobile          string `json:"mobile" binding:"required"`
-	Password        string `json:"password" binding:"required"`
+	FirstName string `json:"firstName" binding:"required"`
+	LastName  string `json:"lastName" binding:"required"`
+	Address   string `json:"address" binding:"required"`
+	Mobile    string `json:"mobile" binding:"required"`
+	Password  string `json:"password" binding:"required"`
 	//ConfirmPassword string `json:"confirmPassword" binding:"required,eqfield=Password" error:"Password and Confirm Password must be same"`
-	Email           string `json:"email" binding:"required"`
-	ZipCode         string `json:"zipcode" binding:"required"`
-	State           string `json:"state" binding:"required"`
-	District        string `json:"district" binding:"required"`
+	Email    string `json:"email" binding:"required"`
+	ZipCode  string `json:"zipcode" binding:"required"`
+	State    string `json:"state" binding:"required"`
+	District string `json:"district" binding:"required"`
 }
 
 type RegisterResponse struct {
